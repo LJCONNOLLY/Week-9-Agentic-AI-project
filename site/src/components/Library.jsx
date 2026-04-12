@@ -60,35 +60,59 @@ export default function Library() {
       <div style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(3, 1fr)',
-        gap: '1.25rem',
+        gap: '1.5rem',
       }}>
         {books.map(book => (
           <Link key={book.id} to={`/book/${book.id}`} style={{ textDecoration: 'none' }}>
-            <div className="card" style={{ height: '100%', padding: '2rem' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
+            <div className="card" style={{
+              height: '100%', padding: 0, overflow: 'hidden',
+              display: 'flex', flexDirection: 'row',
+              background: '#e8dcc8', border: 'none', borderRadius: '10px',
+              minHeight: '280px',
+            }}>
+              {/* Left half: metadata */}
+              <div style={{
+                flex: 1, padding: '1.75rem', display: 'flex', flexDirection: 'column',
+                justifyContent: 'center',
+              }}>
                 <h3 style={{
-                  fontFamily: 'var(--font-heading)', fontSize: '32px', flex: 1, marginRight: '0.75rem', lineHeight: 1.35,
-                  background: '#fce4ec', padding: '0.2rem 0.4rem', borderRadius: '4px', display: 'inline',
-                  boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone',
+                  fontFamily: 'var(--font-heading)', fontSize: '28px', lineHeight: 1.3,
+                  color: '#907040', marginBottom: '0.75rem',
                 }}>
                   {book.title}
                 </h3>
-                <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.05em', flexShrink: 0, marginTop: '0.3rem' }}>
-                  {book.format}
-                </span>
-              </div>
-              <p style={{
-                fontFamily: 'var(--font-heading)', fontSize: '26px', marginBottom: '0.5rem',
-              }}>
-                <span style={{ background: '#fff9c4', padding: '0.15rem 0.35rem', borderRadius: '3px' }}>
+                <p style={{
+                  fontFamily: 'var(--font-heading)', fontSize: '20px',
+                  color: '#5a3e1e', marginBottom: '0.5rem',
+                }}>
                   {(book.author || []).join(', ') || 'Unknown author'}
-                </span>
-              </p>
-              <p style={{ fontFamily: 'var(--font-heading)', fontSize: '26px' }}>
-                <span style={{ background: '#c8e6c9', padding: '0.15rem 0.35rem', borderRadius: '3px' }}>
-                  {book.year || 'n.d.'}
-                </span>
-              </p>
+                </p>
+                <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginTop: '0.25rem' }}>
+                  <span style={{
+                    fontFamily: 'var(--font-heading)', fontSize: '18px',
+                    background: '#c8e6c9', padding: '0.2rem 0.5rem', borderRadius: '4px',
+                    color: '#2e5c34',
+                  }}>
+                    {book.year || 'n.d.'}
+                  </span>
+                  <span style={{
+                    fontSize: '13px', color: '#907040', fontWeight: 500,
+                    textTransform: 'uppercase', letterSpacing: '0.08em',
+                  }}>
+                    {book.format}
+                  </span>
+                </div>
+              </div>
+              {/* Right half: cover image */}
+              <div style={{
+                width: '45%', flexShrink: 0,
+                borderLeft: '3px solid #ecdfa8',
+                background: '#fff',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                overflow: 'hidden',
+              }}>
+                <BookCover bookId={book.id} title={book.title} />
+              </div>
             </div>
           </Link>
         ))}
@@ -99,6 +123,45 @@ export default function Library() {
           <p>No books match your filters.</p>
         </div>
       )}
+    </div>
+  );
+}
+
+function BookCover({ bookId, title }) {
+  const [src, setSrc] = useState(null);
+  const base = import.meta.env.BASE_URL;
+
+  useEffect(() => {
+    // Try jpg first, then png
+    const img = new Image();
+    img.onload = () => setSrc(img.src);
+    img.onerror = () => {
+      const img2 = new Image();
+      img2.onload = () => setSrc(img2.src);
+      img2.onerror = () => setSrc(null);
+      img2.src = `${base}covers/${bookId}.png`;
+    };
+    img.src = `${base}covers/${bookId}.jpg`;
+  }, [bookId, base]);
+
+  if (src) {
+    return (
+      <img
+        src={src}
+        alt={`Cover of ${title}`}
+        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+      />
+    );
+  }
+
+  return (
+    <div style={{
+      width: '100%', height: '100%', display: 'flex', alignItems: 'center',
+      justifyContent: 'center', color: '#c4b99a', fontSize: '14px',
+      fontFamily: 'var(--font-heading)', fontStyle: 'italic', padding: '1rem',
+      textAlign: 'center',
+    }}>
+      No cover
     </div>
   );
 }
