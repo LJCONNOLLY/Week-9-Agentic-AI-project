@@ -64,37 +64,31 @@ export default function Library() {
       }}>
         {books.map(book => (
           <Link key={book.id} to={`/book/${book.id}`} style={{ textDecoration: 'none' }}>
-            <div className="card" style={{ height: '100%', padding: '1.75rem' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.75rem' }}>
-                <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.3rem', flex: 1, marginRight: '0.5rem', lineHeight: 1.3 }}>
+            <div className="card" style={{ height: '100%', padding: '2rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
+                <h3 style={{
+                  fontFamily: 'var(--font-heading)', fontSize: '1.4rem', flex: 1, marginRight: '0.75rem', lineHeight: 1.35,
+                  background: '#fce4ec', padding: '0.2rem 0.4rem', borderRadius: '4px', display: 'inline',
+                  boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone',
+                }}>
                   {book.title}
                 </h3>
-                <span className={`format-badge ${book.format}`}>{book.format}</span>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.05em', flexShrink: 0, marginTop: '0.3rem' }}>
+                  {book.format}
+                </span>
               </div>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', marginBottom: '0.35rem' }}>
-                {(book.author || []).join(', ') || 'Unknown author'}
+              <p style={{
+                fontSize: '1.15rem', marginBottom: '0.5rem',
+              }}>
+                <span style={{ background: '#fff9c4', padding: '0.15rem 0.35rem', borderRadius: '3px' }}>
+                  {(book.author || []).join(', ') || 'Unknown author'}
+                </span>
               </p>
-              <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginBottom: '0.75rem' }}>
-                {book.year || 'n.d.'}{book.publisher ? ` • ${book.publisher}` : ''}
+              <p style={{ fontSize: '1.05rem' }}>
+                <span style={{ background: '#c8e6c9', padding: '0.15rem 0.35rem', borderRadius: '3px' }}>
+                  {book.year || 'n.d.'}
+                </span>
               </p>
-              <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-                <span>{book.page_count} {book.format === 'epub' || book.format === 'mobi' || book.format === 'azw3' ? 'sections' : 'pages'}</span>
-                <span>•</span>
-                <span>{(book.word_count || 0).toLocaleString()} words</span>
-                {(book.definitions?.text?.length > 0 || book.definitions?.technology?.length > 0) && (
-                  <>
-                    <span>•</span>
-                    <span className="tag tag-gold">definitions</span>
-                  </>
-                )}
-              </div>
-              {book.frameworks && book.frameworks.length > 0 && (
-                <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap', marginTop: '0.75rem' }}>
-                  {book.frameworks.map(f => (
-                    <span key={f} className="tag">{f}</span>
-                  ))}
-                </div>
-              )}
             </div>
           </Link>
         ))}
