@@ -67,7 +67,7 @@ export default function Library() {
             <div className="card" style={{
               height: '100%', padding: 0, overflow: 'hidden',
               display: 'flex', flexDirection: 'row',
-              background: '#e8dcc8', border: 'none', borderRadius: '10px',
+              background: '#e8e4da', border: 'none', borderRadius: '10px',
               minHeight: '280px',
             }}>
               {/* Left half: metadata */}
@@ -77,26 +77,26 @@ export default function Library() {
               }}>
                 <h3 style={{
                   fontFamily: 'var(--font-heading)', fontSize: '28px', lineHeight: 1.3,
-                  color: '#907040', marginBottom: '0.75rem',
+                  color: '#2d3a2d', marginBottom: '0.75rem',
                 }}>
                   {book.title}
                 </h3>
                 <p style={{
                   fontFamily: 'var(--font-heading)', fontSize: '20px',
-                  color: '#5a3e1e', marginBottom: '0.5rem',
+                  color: '#556b55', marginBottom: '0.5rem',
                 }}>
                   {(book.author || []).join(', ') || 'Unknown author'}
                 </p>
                 <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginTop: '0.25rem' }}>
                   <span style={{
                     fontFamily: 'var(--font-heading)', fontSize: '18px',
-                    background: '#c8e6c9', padding: '0.2rem 0.5rem', borderRadius: '4px',
-                    color: '#2e5c34',
+                    background: '#c17a5a', padding: '0.2rem 0.5rem', borderRadius: '4px',
+                    color: '#fff',
                   }}>
                     {book.year || 'n.d.'}
                   </span>
                   <span style={{
-                    fontSize: '13px', color: '#907040', fontWeight: 500,
+                    fontSize: '13px', color: '#8a9a8a', fontWeight: 500,
                     textTransform: 'uppercase', letterSpacing: '0.08em',
                   }}>
                     {book.format}
@@ -106,7 +106,7 @@ export default function Library() {
               {/* Right half: cover image */}
               <div style={{
                 width: '45%', flexShrink: 0,
-                borderLeft: '3px solid #ecdfa8',
+                borderLeft: '3px solid #b5c4a8',
                 background: '#fff',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 overflow: 'hidden',
@@ -157,7 +157,7 @@ function BookCover({ bookId, title }) {
   return (
     <div style={{
       width: '100%', height: '100%', display: 'flex', alignItems: 'center',
-      justifyContent: 'center', color: '#c4b99a', fontSize: '14px',
+      justifyContent: 'center', color: '#8a9a8a', fontSize: '14px',
       fontFamily: 'var(--font-heading)', fontStyle: 'italic', padding: '1rem',
       textAlign: 'center',
     }}>
