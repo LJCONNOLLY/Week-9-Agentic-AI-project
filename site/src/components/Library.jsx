@@ -59,21 +59,21 @@ export default function Library() {
 
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(3, 1fr)',
+        gridTemplateColumns: 'repeat(2, 1fr)',
         gap: '1.5rem',
       }}>
         {books.map(book => (
           <Link key={book.id} to={`/book/${book.id}`} style={{ textDecoration: 'none' }}>
             <div className="card" style={{
-              height: '100%', padding: 0, overflow: 'hidden',
+              padding: 0, overflow: 'hidden',
               display: 'flex', flexDirection: 'row',
               background: '#b3c5a7', border: 'none', borderRadius: '10px',
-              minHeight: '280px',
+              height: '320px',
             }}>
               {/* Left half: metadata */}
               <div style={{
                 flex: 1, padding: '1.75rem', display: 'flex', flexDirection: 'column',
-                justifyContent: 'center',
+                justifyContent: 'center', overflow: 'hidden',
               }}>
                 <h3 style={{
                   fontFamily: 'var(--font-heading)', fontSize: '28px', lineHeight: 1.3,
