@@ -67,7 +67,7 @@ export default function Library() {
             <div className="card" style={{
               height: '100%', padding: 0, overflow: 'hidden',
               display: 'flex', flexDirection: 'row',
-              background: '#e8e4da', border: 'none', borderRadius: '10px',
+              background: '#2d3a2d', border: 'none', borderRadius: '10px',
               minHeight: '280px',
             }}>
               {/* Left half: metadata */}
@@ -77,13 +77,13 @@ export default function Library() {
               }}>
                 <h3 style={{
                   fontFamily: 'var(--font-heading)', fontSize: '28px', lineHeight: 1.3,
-                  color: '#2d3a2d', marginBottom: '0.75rem',
+                  color: '#f0ebe2', marginBottom: '0.75rem',
                 }}>
                   {book.title}
                 </h3>
                 <p style={{
                   fontFamily: 'var(--font-heading)', fontSize: '20px',
-                  color: '#556b55', marginBottom: '0.5rem',
+                  color: '#c8d4bc', marginBottom: '0.5rem',
                 }}>
                   {(book.author || []).join(', ') || 'Unknown author'}
                 </p>
@@ -96,7 +96,7 @@ export default function Library() {
                     {book.year || 'n.d.'}
                   </span>
                   <span style={{
-                    fontSize: '13px', color: '#8a9a8a', fontWeight: 500,
+                    fontSize: '13px', color: '#9aad8a', fontWeight: 500,
                     textTransform: 'uppercase', letterSpacing: '0.08em',
                   }}>
                     {book.format}
