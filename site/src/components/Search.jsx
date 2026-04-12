@@ -152,11 +152,11 @@ export default function Search() {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                   <div>
                     <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '0.95rem' }}>{r.title}</h3>
-                    <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>{r.author}</p>
+                    <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>{r.author}</p>
                   </div>
                   <span className="tag">{r.locatorType} {r.locator}</span>
                 </div>
-                <p style={{ fontSize: '0.85rem', marginTop: '0.5rem', color: 'var(--text-secondary)' }}>
+                <p style={{ fontSize: '0.95rem', marginTop: '0.5rem', color: 'var(--text-secondary)' }}>
                   ...{highlightText(r.excerpt, query)}...
                 </p>
               </div>

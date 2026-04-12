@@ -58,20 +58,20 @@ export default function BookProfile() {
       <div style={{ marginTop: '1rem', marginBottom: '2rem' }}>
         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', flexWrap: 'wrap' }}>
           <div style={{ flex: 1 }}>
-            <h1 style={{ fontSize: '1.8rem', marginBottom: '0.5rem' }}>{meta.title}</h1>
-            <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', marginBottom: '0.25rem' }}>
+            <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>{meta.title}</h1>
+            <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', marginBottom: '0.25rem' }}>
               {(meta.author || []).join(', ')}
             </p>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-              {meta.year || 'n.d.'} {meta.publisher ? `\u2022 ${meta.publisher}` : ''}
-              {meta.isbn ? ` \u2022 ISBN ${meta.isbn}` : ''}
+            <p style={{ fontSize: '0.95rem', color: 'var(--text-muted)' }}>
+              {meta.year || 'n.d.'}{meta.publisher ? <>{' \u2022 '}{meta.publisher}</> : ''}
+              {meta.isbn ? <>{' \u2022 '}ISBN {meta.isbn}</> : ''}
             </p>
           </div>
           <span className={`format-badge ${meta.format}`} style={{ fontSize: '0.8rem', padding: '0.2rem 0.6rem' }}>
             {meta.format}
           </span>
         </div>
-        <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+        <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
           {meta.page_count} {meta.format === 'epub' || meta.format === 'mobi' || meta.format === 'azw3' ? 'sections' : 'pages'}
           {' \u2022 '}{(meta.word_count || 0).toLocaleString()} words
         </p>

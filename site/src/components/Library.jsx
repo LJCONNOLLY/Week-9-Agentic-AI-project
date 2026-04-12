@@ -59,31 +59,32 @@ export default function Library() {
 
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-        gap: '1rem'
+        gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))',
+        gap: '1.25rem',
+        maxWidth: '1400px'
       }}>
         {books.map(book => (
           <Link key={book.id} to={`/book/${book.id}`} style={{ textDecoration: 'none' }}>
-            <div className="card" style={{ height: '100%' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.05rem', flex: 1, marginRight: '0.5rem' }}>
+            <div className="card" style={{ height: '100%', padding: '1.5rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.75rem' }}>
+                <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.15rem', flex: 1, marginRight: '0.5rem', lineHeight: 1.3 }}>
                   {book.title}
                 </h3>
                 <span className={`format-badge ${book.format}`}>{book.format}</span>
               </div>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '0.25rem' }}>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', marginBottom: '0.35rem' }}>
                 {(book.author || []).join(', ') || 'Unknown author'}
               </p>
-              <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', marginBottom: '0.75rem' }}>
-                {book.year || 'n.d.'} {book.publisher ? `\u2022 ${book.publisher}` : ''}
+              <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem', marginBottom: '0.75rem' }}>
+                {book.year || 'n.d.'} {book.publisher ? <>{' \u2022 '}{book.publisher}</> : ''}
               </p>
-              <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+              <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
                 <span>{book.page_count} {book.format === 'epub' || book.format === 'mobi' || book.format === 'azw3' ? 'sections' : 'pages'}</span>
-                <span>\u2022</span>
+                <span>{'\u2022'}</span>
                 <span>{(book.word_count || 0).toLocaleString()} words</span>
                 {(book.definitions?.text?.length > 0 || book.definitions?.technology?.length > 0) && (
                   <>
-                    <span>\u2022</span>
+                    <span>{'\u2022'}</span>
                     <span className="tag tag-gold">definitions</span>
                   </>
                 )}
