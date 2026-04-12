@@ -44,7 +44,11 @@ export default function BookProfile() {
 
   if (!meta) return <div className="loading">Loading...</div>;
 
-  const pages = book?.pages || [];
+  const allPages = book?.pages || [];
+
+  // Skip front matter: find first page with actual prose content
+  const firstContentIndex = allPages.findIndex(p => !isFrontMatter(p.text));
+  const pages = firstContentIndex > 0 ? allPages.slice(firstContentIndex) : allPages;
   const currentPage = pages[page];
 
   const filteredPages = localSearch
@@ -187,16 +191,23 @@ export default function BookProfile() {
               </button>
             </div>
             <div style={{
-              whiteSpace: 'pre-wrap',
-              fontSize: '0.9rem',
-              lineHeight: '1.7',
-              maxHeight: '600px',
+              maxHeight: '700px',
               overflowY: 'auto',
-              padding: '1rem',
               background: 'var(--cream)',
-              borderRadius: '6px'
+              borderRadius: '6px',
+              display: 'flex',
+              justifyContent: 'center',
             }}>
-              {currentPage.text}
+              <div style={{
+                maxWidth: '680px',
+                width: '100%',
+                padding: '24px',
+                fontSize: '17px',
+                lineHeight: '1.8',
+                color: 'var(--text-primary)',
+              }}>
+                <FormattedText text={currentPage.text} />
+              </div>
             </div>
           </div>
         ) : (
@@ -230,5 +241,65 @@ function highlightText(text, query) {
     part.toLowerCase() === query.toLowerCase()
       ? <mark key={i}>{part}</mark>
       : part
+  );
+}
+
+const FRONT_MATTER_PATTERNS = [
+  /isbn/i, /copyright/i, /all rights reserved/i, /library of congress/i,
+  /cataloging.in.publication/i, /printed in/i, /typeset/i, /press\./i,
+  /\d{3}-\d{1,5}-\d{1,7}-\d{1,7}-\d{1}/,  // ISBN pattern
+  /^\s*\d{1,2}\s+\d{1,2}\s+\d{1,2}\s+\d{1,2}/, // classification codes
+  /published by/i, /first (edition|printing|published)/i,
+  /cover design/i, /jacket/i, /manufactured/i,
+];
+
+function isFrontMatter(text) {
+  if (!text) return true;
+  const lines = text.split('\n').filter(l => l.trim());
+  if (lines.length === 0) return true;
+  if (lines.length < 3) return true; // Very short pages are likely front matter
+
+  let metaLineCount = 0;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.length < 5) { metaLineCount++; continue; }
+    if (FRONT_MATTER_PATTERNS.some(p => p.test(trimmed))) { metaLineCount++; }
+  }
+
+  return metaLineCount / lines.length > 0.5;
+}
+
+function FormattedText({ text }) {
+  // Split on double newlines to create paragraphs
+  const paragraphs = text.split(/\n\s*\n/).filter(p => p.trim());
+
+  return (
+    <>
+      {paragraphs.map((para, i) => {
+        const trimmed = para.trim();
+        // Detect footnote/list lines: starts with number + space
+        const isFootnote = /^\d{1,3}\s+[A-Z]/.test(trimmed);
+
+        if (isFootnote) {
+          return (
+            <p key={i} style={{
+              marginBottom: '0.75rem',
+              fontSize: '15px',
+              color: 'var(--text-muted)',
+              paddingLeft: '1rem',
+              borderLeft: '2px solid var(--border)',
+            }}>
+              {trimmed}
+            </p>
+          );
+        }
+
+        return (
+          <p key={i} style={{ marginBottom: '1rem' }}>
+            {trimmed}
+          </p>
+        );
+      })}
+    </>
   );
 }
