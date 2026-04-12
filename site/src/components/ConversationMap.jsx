@@ -34,9 +34,9 @@ export default function ConversationMap() {
           <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
             <svg ref={svgRef} style={{ width: '100%', height: '600px', display: 'block' }} />
           </div>
-          <div style={{ display: 'flex', gap: '1.5rem', marginTop: '0.75rem', fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-            <span><span style={{ display: 'inline-block', width: 10, height: 10, borderRadius: '50%', background: '#c9a84c', marginRight: 4 }} />Book</span>
-            <span><span style={{ display: 'inline-block', width: 10, height: 10, borderRadius: '50%', background: '#2a3a5c', marginRight: 4 }} />Scholar</span>
+          <div style={{ display: 'flex', gap: '1.5rem', marginTop: '0.75rem', fontSize: '1rem', color: 'var(--text-muted)' }}>
+            <span><span style={{ display: 'inline-block', width: 14, height: 14, borderRadius: '50%', background: '#c9a84c', marginRight: 6 }} />Book</span>
+            <span><span style={{ display: 'inline-block', width: 14, height: 14, borderRadius: '50%', background: '#2a3a5c', marginRight: 6 }} />Scholar</span>
             <span style={{ marginLeft: 'auto' }}>Drag to rearrange. Click for details.</span>
           </div>
         </div>
@@ -215,7 +215,7 @@ function renderGraph(svgEl, nodes, links, onSelect) {
     .data(nodes)
     .join('text')
     .text(d => d.label.length > 25 ? d.label.slice(0, 25) + '...' : d.label)
-    .attr('font-size', d => d.type === 'book' ? '8px' : '9px')
+    .attr('font-size', '20px')
     .attr('font-weight', d => d.type === 'scholar' ? 600 : 400)
     .attr('font-family', 'Inter, sans-serif')
     .attr('fill', '#1a2744')
