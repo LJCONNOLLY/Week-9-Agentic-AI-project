@@ -47,7 +47,7 @@ input, textarea, select { font-family: var(--font-body); }
 
 .sidebar {
   width: var(--sidebar-width);
-  background: #d4cdbf;
+  background: #b8b0a0;
   color: var(--navy);
   position: fixed;
   top: 0; left: 0; bottom: 0;
@@ -59,7 +59,7 @@ input, textarea, select { font-family: var(--font-body); }
 
 .sidebar-brand {
   padding: 2.5rem 2rem 2rem;
-  border-bottom: 1px solid #c4bdb0;
+  border-bottom: 1px solid #a8a192;
 }
 
 .sidebar-brand h1 {
@@ -92,10 +92,10 @@ input, textarea, select { font-family: var(--font-body); }
   border-left: 4px solid transparent;
 }
 
-.sidebar-nav a:hover { background: #c4bdb0; color: var(--navy); }
+.sidebar-nav a:hover { background: #a8a192; color: var(--navy); }
 
 .sidebar-nav a.active {
-  background: #c4bdb0;
+  background: #a8a192;
   color: var(--navy);
   border-left-color: var(--gold);
   font-weight: 700;
@@ -103,22 +103,22 @@ input, textarea, select { font-family: var(--font-body); }
 
 .sidebar-footer {
   padding: 1.5rem 2rem;
-  border-top: 1px solid #c4bdb0;
+  border-top: 1px solid #a8a192;
 }
 
 .sidebar-footer button {
   width: 100%;
   padding: 0.8rem;
-  background: #c4bdb0;
+  background: #a8a192;
   color: var(--navy);
-  border: 1px solid #b8b1a3;
+  border: 1px solid #9c9585;
   border-radius: 6px;
   font-family: var(--font-heading);
   font-size: 1.28rem;
   transition: all 0.15s ease;
 }
 
-.sidebar-footer button:hover { background: #b8b1a3; color: var(--navy); }
+.sidebar-footer button:hover { background: #9c9585; color: var(--navy); }
 
 .main-content {
   flex: 1;
@@ -133,7 +133,7 @@ input, textarea, select { font-family: var(--font-body); }
   display: none;
   position: fixed;
   top: 0; left: 0; right: 0;
-  background: #d4cdbf;
+  background: #b8b0a0;
   padding: 0.75rem 1rem;
   z-index: 200;
   align-items: center;
