@@ -4,6 +4,403 @@
   "author": [
     "Michel Foucault"
   ],
+  "toc": [
+    {
+      "title": "Cover",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "About the Author",
+      "section": 1,
+      "level": 0
+    },
+    {
+      "title": "Other Books by This Author",
+      "section": 2,
+      "level": 0
+    },
+    {
+      "title": "Title Page",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Copyright",
+      "section": 3,
+      "level": 0
+    },
+    {
+      "title": "Contents",
+      "section": 4,
+      "level": 0
+    },
+    {
+      "title": "Publisher’s Note",
+      "section": 5,
+      "level": 0
+    },
+    {
+      "title": "Foreword to the English edition",
+      "section": 6,
+      "level": 0
+    },
+    {
+      "title": "Preface",
+      "section": 7,
+      "level": 0
+    },
+    {
+      "title": "Part I",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "1 - Las Meninas",
+      "section": 8,
+      "level": 1
+    },
+    {
+      "title": "2 - The Prose of the World",
+      "section": 9,
+      "level": 1
+    },
+    {
+      "title": "I The four similitudes",
+      "section": 9,
+      "level": 2
+    },
+    {
+      "title": "II Signatures",
+      "section": 9,
+      "level": 2
+    },
+    {
+      "title": "III The limits of the world",
+      "section": 9,
+      "level": 2
+    },
+    {
+      "title": "IV The writing of things",
+      "section": 9,
+      "level": 2
+    },
+    {
+      "title": "V The being of language",
+      "section": 9,
+      "level": 2
+    },
+    {
+      "title": "3 - Representing",
+      "section": 10,
+      "level": 1
+    },
+    {
+      "title": "I Don Quixote",
+      "section": 10,
+      "level": 2
+    },
+    {
+      "title": "II Order",
+      "section": 10,
+      "level": 2
+    },
+    {
+      "title": "III The representation of the sign",
+      "section": 10,
+      "level": 2
+    },
+    {
+      "title": "IV Duplicated representation",
+      "section": 10,
+      "level": 2
+    },
+    {
+      "title": "V The imagination of resemblance",
+      "section": 10,
+      "level": 2
+    },
+    {
+      "title": "VI Mathesis and ‘taxinomia’",
+      "section": 10,
+      "level": 2
+    },
+    {
+      "title": "4 - Speaking",
+      "section": 11,
+      "level": 1
+    },
+    {
+      "title": "I Criticism and commentary",
+      "section": 11,
+      "level": 2
+    },
+    {
+      "title": "II General grammar",
+      "section": 11,
+      "level": 2
+    },
+    {
+      "title": "III The theory of the verb",
+      "section": 11,
+      "level": 2
+    },
+    {
+      "title": "IV Articulation",
+      "section": 11,
+      "level": 2
+    },
+    {
+      "title": "V Designation",
+      "section": 11,
+      "level": 2
+    },
+    {
+      "title": "VI Derivation",
+      "section": 11,
+      "level": 2
+    },
+    {
+      "title": "VII The quadrilateral of language",
+      "section": 11,
+      "level": 2
+    },
+    {
+      "title": "5 - Classifying",
+      "section": 12,
+      "level": 1
+    },
+    {
+      "title": "I What the historians say",
+      "section": 12,
+      "level": 2
+    },
+    {
+      "title": "II Natural history",
+      "section": 12,
+      "level": 2
+    },
+    {
+      "title": "III Structure",
+      "section": 12,
+      "level": 2
+    },
+    {
+      "title": "IV Character",
+      "section": 12,
+      "level": 2
+    },
+    {
+      "title": "V Continuity and catastrophe",
+      "section": 12,
+      "level": 2
+    },
+    {
+      "title": "VI Monsters and fossils",
+      "section": 12,
+      "level": 2
+    },
+    {
+      "title": "VII The discourse of nature",
+      "section": 12,
+      "level": 2
+    },
+    {
+      "title": "6 - Exchanging",
+      "section": 13,
+      "level": 1
+    },
+    {
+      "title": "I The analysis of wealth",
+      "section": 13,
+      "level": 2
+    },
+    {
+      "title": "II Money and prices",
+      "section": 13,
+      "level": 2
+    },
+    {
+      "title": "III Mercantilism",
+      "section": 13,
+      "level": 2
+    },
+    {
+      "title": "IV The pledge and the price",
+      "section": 13,
+      "level": 2
+    },
+    {
+      "title": "V The creation of value",
+      "section": 13,
+      "level": 2
+    },
+    {
+      "title": "VI Utility",
+      "section": 13,
+      "level": 2
+    },
+    {
+      "title": "VII General table",
+      "section": 13,
+      "level": 2
+    },
+    {
+      "title": "VIII Desire and representation",
+      "section": 13,
+      "level": 2
+    },
+    {
+      "title": "Part II",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "7 - The Limits of Representation",
+      "section": 14,
+      "level": 1
+    },
+    {
+      "title": "I The age of history",
+      "section": 14,
+      "level": 2
+    },
+    {
+      "title": "II The measure of labour",
+      "section": 14,
+      "level": 2
+    },
+    {
+      "title": "III The organic structure of beings",
+      "section": 14,
+      "level": 2
+    },
+    {
+      "title": "IV Word inflection",
+      "section": 14,
+      "level": 2
+    },
+    {
+      "title": "V Ideology and criticism",
+      "section": 14,
+      "level": 2
+    },
+    {
+      "title": "VI Objective syntheses",
+      "section": 14,
+      "level": 2
+    },
+    {
+      "title": "8 - Labour, Life, Language",
+      "section": 15,
+      "level": 1
+    },
+    {
+      "title": "I The new empiricities",
+      "section": 15,
+      "level": 2
+    },
+    {
+      "title": "II Ricardo",
+      "section": 15,
+      "level": 2
+    },
+    {
+      "title": "III Cuvier",
+      "section": 15,
+      "level": 2
+    },
+    {
+      "title": "IV Bopp",
+      "section": 15,
+      "level": 2
+    },
+    {
+      "title": "V Language become object",
+      "section": 15,
+      "level": 2
+    },
+    {
+      "title": "9 - Man and his Doubles",
+      "section": 16,
+      "level": 1
+    },
+    {
+      "title": "I The return of language",
+      "section": 16,
+      "level": 2
+    },
+    {
+      "title": "II The place of the king",
+      "section": 16,
+      "level": 2
+    },
+    {
+      "title": "III The analytic of finitude",
+      "section": 16,
+      "level": 2
+    },
+    {
+      "title": "IV The empirical and the transcendental",
+      "section": 16,
+      "level": 2
+    },
+    {
+      "title": "V The ‘cogito’ and the unthought",
+      "section": 16,
+      "level": 2
+    },
+    {
+      "title": "VI The retreat and return of the origin",
+      "section": 16,
+      "level": 2
+    },
+    {
+      "title": "VII Discourse and man’s being",
+      "section": 16,
+      "level": 2
+    },
+    {
+      "title": "VIII The anthropological sleep",
+      "section": 16,
+      "level": 2
+    },
+    {
+      "title": "10 - The Human Sciences",
+      "section": 17,
+      "level": 1
+    },
+    {
+      "title": "I The three faces of knowledge",
+      "section": 17,
+      "level": 2
+    },
+    {
+      "title": "II The form of the human sciences",
+      "section": 17,
+      "level": 2
+    },
+    {
+      "title": "III The three models",
+      "section": 17,
+      "level": 2
+    },
+    {
+      "title": "IV History",
+      "section": 17,
+      "level": 2
+    },
+    {
+      "title": "V Psychoanalysis and ethnology",
+      "section": 17,
+      "level": 2
+    },
+    {
+      "title": "VI In conclusion",
+      "section": 17,
+      "level": 2
+    }
+  ],
   "pages": [
     {
       "locator": 1,

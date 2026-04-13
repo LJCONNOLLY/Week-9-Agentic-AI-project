@@ -334,13 +334,16 @@ def extract_pdf(filepath):
 
 
 def extract_epub(filepath):
-    """Extract text from EPUB chapter by chapter."""
+    """Extract text from EPUB chapter by chapter, including TOC."""
     if not HAS_EBOOKLIB:
         raise ImportError("ebooklib is required for EPUB extraction")
 
-    book = epub.read_epub(str(filepath), options={"ignore_ncx": True})
+    book = epub.read_epub(str(filepath), options={"ignore_ncx": False})
     sections = []
     section_num = 0
+
+    # Build a map from document filename to section number
+    filename_to_section = {}
 
     for item in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
         content = item.get_content()
@@ -349,11 +352,55 @@ def extract_epub(filepath):
 
         if text and len(text.strip()) > 50:
             section_num += 1
+            item_name = item.get_name()  # e.g. "OEBPS/chapter01.xhtml"
+            filename_to_section[item_name] = section_num
             sections.append({
                 "locator": section_num,
                 "locator_type": "section",
                 "text": text.strip()
             })
+
+    # Extract TOC from the EPUB's navigation structure
+    toc_entries = []
+    try:
+        def _parse_toc(toc_items, level=0):
+            for item in toc_items:
+                if isinstance(item, tuple):
+                    # Nested TOC: (Section, [children])
+                    section_obj, children = item
+                    if hasattr(section_obj, 'title') and hasattr(section_obj, 'href'):
+                        _add_toc_entry(section_obj.title, section_obj.href, level)
+                    if children:
+                        _parse_toc(children, level + 1)
+                elif hasattr(item, 'title') and hasattr(item, 'href'):
+                    _add_toc_entry(item.title, item.href, level)
+
+        def _add_toc_entry(title, href, level):
+            if not title or not href:
+                return
+            # href might be "chapter01.xhtml" or "OEBPS/chapter01.xhtml#anchor"
+            href_file = href.split('#')[0]
+            # Try to find matching section
+            matched_section = None
+            for fname, sec_num in filename_to_section.items():
+                # Match by filename (may or may not have directory prefix)
+                if fname == href_file or fname.endswith('/' + href_file) or href_file.endswith('/' + fname.split('/')[-1]):
+                    matched_section = sec_num
+                    break
+                # Also try just the base filename
+                if fname.split('/')[-1] == href_file.split('/')[-1]:
+                    matched_section = sec_num
+                    break
+
+            toc_entries.append({
+                "title": title.strip(),
+                "section": matched_section,
+                "level": level,
+            })
+
+        _parse_toc(book.toc)
+    except Exception as e:
+        pass  # TOC extraction is best-effort
 
     epub_meta = {}
     try:
@@ -382,6 +429,9 @@ def extract_epub(filepath):
             epub_meta["publisher"] = pub_list[0][0]
     except Exception:
         pass
+
+    if toc_entries:
+        epub_meta["toc"] = toc_entries
 
     return sections, epub_meta
 
@@ -591,6 +641,9 @@ def process_file(filepath):
     # Build book data
     book_id = make_book_id(metadata)
 
+    # Get TOC if available (from EPUB metadata)
+    toc = metadata.get("toc", file_meta.get("toc", []))
+
     book_data = {
         "id": book_id,
         "filename": filename,
@@ -602,6 +655,7 @@ def process_file(filepath):
         "format": fmt,
         "frameworks": [],
         "definitions": definitions,
+        "toc": toc,
         "word_count": word_count,
         "page_count": len(pages),
         "pages": pages,
@@ -649,6 +703,7 @@ def main():
                 "id": book_data["id"],
                 "title": book_data["title"],
                 "author": book_data["author"],
+                "toc": book_data.get("toc", []),
                 "pages": book_data["pages"],
             }, f, ensure_ascii=False, indent=2)
 

@@ -4,6 +4,133 @@
   "author": [
     "Bruno Latour"
   ],
+  "toc": [
+    {
+      "title": "Cover Page",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Title Page",
+      "section": 2,
+      "level": 0
+    },
+    {
+      "title": "Copyright Page",
+      "section": 3,
+      "level": 0
+    },
+    {
+      "title": "Dedication",
+      "section": 4,
+      "level": 0
+    },
+    {
+      "title": "Contents",
+      "section": 5,
+      "level": 0
+    },
+    {
+      "title": "Acknowledgements",
+      "section": 6,
+      "level": 0
+    },
+    {
+      "title": "Introduction: How to Resume the Task of Tracing Associations*",
+      "section": 7,
+      "level": 0
+    },
+    {
+      "title": "PART I How to Deploy Controversies About the Social World",
+      "section": 8,
+      "level": 0
+    },
+    {
+      "title": "Introduction to Part I: Learning to Feed off Controversies",
+      "section": 9,
+      "level": 1
+    },
+    {
+      "title": "First Source of Uncertainty: No Group, Only Group Formation",
+      "section": 10,
+      "level": 1
+    },
+    {
+      "title": "Second Source of Uncertainty: Action Is Overtaken",
+      "section": 11,
+      "level": 1
+    },
+    {
+      "title": "Third Source of Uncertainty: Objects too Have Agency",
+      "section": 12,
+      "level": 1
+    },
+    {
+      "title": "Fourth Source of Uncertainty: Matters of Fact vs. Matters of Concern",
+      "section": 13,
+      "level": 1
+    },
+    {
+      "title": "Fifth Source of Uncertainty: Writing Down Risky Accounts",
+      "section": 14,
+      "level": 1
+    },
+    {
+      "title": "On the Difficulty of Being an ANT: An Interlude in the Form of a Dialog",
+      "section": 15,
+      "level": 1
+    },
+    {
+      "title": "PART II How to Render Associations Traceable Again",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Introduction to Part II: Why is it so Difficult to Trace the Social?",
+      "section": 16,
+      "level": 1
+    },
+    {
+      "title": "How to Keep the Social Flat",
+      "section": 17,
+      "level": 1
+    },
+    {
+      "title": "First Move: Localizing the Global",
+      "section": 18,
+      "level": 1
+    },
+    {
+      "title": "Second Move: Redistributing the Local",
+      "section": 19,
+      "level": 1
+    },
+    {
+      "title": "Third Move: Connecting Sites",
+      "section": 20,
+      "level": 1
+    },
+    {
+      "title": "Conclusion: From Society to Collective—Can the Social BeReassembled?",
+      "section": 21,
+      "level": 0
+    },
+    {
+      "title": "Bibliography",
+      "section": 22,
+      "level": 0
+    },
+    {
+      "title": "Index",
+      "section": 23,
+      "level": 0
+    },
+    {
+      "title": "Footnotes",
+      "section": 24,
+      "level": 0
+    }
+  ],
   "pages": [
     {
       "locator": 1,

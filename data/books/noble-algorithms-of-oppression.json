@@ -4,6 +4,103 @@
   "author": [
     "Safiya Umoja Noble"
   ],
+  "toc": [
+    {
+      "title": "Cover",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Title Page",
+      "section": 1,
+      "level": 0
+    },
+    {
+      "title": "Copyright Page",
+      "section": 2,
+      "level": 0
+    },
+    {
+      "title": "Dedication",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Contents",
+      "section": 3,
+      "level": 0
+    },
+    {
+      "title": "Acknowledgments",
+      "section": 4,
+      "level": 0
+    },
+    {
+      "title": "Introduction: The Power of Algorithms",
+      "section": 5,
+      "level": 0
+    },
+    {
+      "title": "1. A Society, Searching",
+      "section": 6,
+      "level": 0
+    },
+    {
+      "title": "2. Searching for Black Girls",
+      "section": 7,
+      "level": 0
+    },
+    {
+      "title": "3. Searching for People and Communities",
+      "section": 8,
+      "level": 0
+    },
+    {
+      "title": "4. Searching for Protections from Search Engines",
+      "section": 9,
+      "level": 0
+    },
+    {
+      "title": "5. The Future of Knowledge in the Public",
+      "section": 10,
+      "level": 0
+    },
+    {
+      "title": "6. The Future of Information Culture",
+      "section": 11,
+      "level": 0
+    },
+    {
+      "title": "Conclusion: Algorithms of Oppression",
+      "section": 12,
+      "level": 0
+    },
+    {
+      "title": "Epilogue",
+      "section": 13,
+      "level": 0
+    },
+    {
+      "title": "Notes",
+      "section": 14,
+      "level": 0
+    },
+    {
+      "title": "References",
+      "section": 15,
+      "level": 0
+    },
+    {
+      "title": "Index",
+      "section": 16,
+      "level": 0
+    },
+    {
+      "title": "About the Author",
+      "section": 17,
+      "level": 0
+    }
+  ],
   "pages": [
     {
       "locator": 1,

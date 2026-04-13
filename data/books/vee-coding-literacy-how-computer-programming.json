@@ -4,6 +4,83 @@
   "author": [
     "Annette Vee"
   ],
+  "toc": [
+    {
+      "title": "Cover",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Series page",
+      "section": 1,
+      "level": 0
+    },
+    {
+      "title": "Title page",
+      "section": 2,
+      "level": 0
+    },
+    {
+      "title": "Copyright page",
+      "section": 3,
+      "level": 0
+    },
+    {
+      "title": "Table of Contents",
+      "section": 4,
+      "level": 0
+    },
+    {
+      "title": "Series Foreword",
+      "section": 5,
+      "level": 0
+    },
+    {
+      "title": "Acknowledgments",
+      "section": 6,
+      "level": 0
+    },
+    {
+      "title": "Introduction: Computer Programming as Literacy",
+      "section": 7,
+      "level": 0
+    },
+    {
+      "title": "1 Coding for Everyone and the Legacy of Mass Literacy",
+      "section": 8,
+      "level": 0
+    },
+    {
+      "title": "2 Sociomaterialities of Programming and Writing",
+      "section": 9,
+      "level": 0
+    },
+    {
+      "title": "3 Material Infrastructures of Writing and Programming",
+      "section": 10,
+      "level": 0
+    },
+    {
+      "title": "4 Literacy for Everyday Life",
+      "section": 11,
+      "level": 0
+    },
+    {
+      "title": "Conclusion: Promoting Coding Literacy—Lessons from Reading and Writing",
+      "section": 12,
+      "level": 0
+    },
+    {
+      "title": "Bibliography",
+      "section": 13,
+      "level": 0
+    },
+    {
+      "title": "Index",
+      "section": 14,
+      "level": 0
+    }
+  ],
   "pages": [
     {
       "locator": 1,

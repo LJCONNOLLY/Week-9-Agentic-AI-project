@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T01:03:44.245965",
+  "generated_at": "2026-04-13T01:49:02.286704",
   "book_count": 30,
   "books": [
     {
@@ -125,6 +125,93 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Title Page",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Copyright Page",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Dedication",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "Introduction",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "1. Distributing Blackness: Ayo Technology! Texts, Identities, and Blackness",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "2. Information Inspirations: The Web Browser as Racial Technology",
+          "section": 9,
+          "level": 0
+        },
+        {
+          "title": "3. “The Black Purposes of Space Travel”: Black Twitter as Black Technoculture",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "4. Black Online Discourse, Part 1: Ratchetry and Racism",
+          "section": 11,
+          "level": 0
+        },
+        {
+          "title": "5. Black Online Discourse, Part 2: Respectability",
+          "section": 12,
+          "level": 0
+        },
+        {
+          "title": "6. Making a Way out of No Way: Black Cyberculture and the Black Technocultural Matrix",
+          "section": 13,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 14,
+          "level": 0
+        },
+        {
+          "title": "Notes",
+          "section": 15,
+          "level": 0
+        },
+        {
+          "title": "References",
+          "section": 16,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 17,
+          "level": 0
+        },
+        {
+          "title": "About the Author",
+          "section": 18,
+          "level": 0
+        }
+      ],
       "word_count": 91166,
       "page_count": 18
     },
@@ -206,6 +293,83 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Series page",
+          "section": 1,
+          "level": 0
+        },
+        {
+          "title": "Title page",
+          "section": 2,
+          "level": 0
+        },
+        {
+          "title": "Copyright page",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Table of Contents",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Series Foreword",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "Introduction: Computer Programming as Literacy",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "1 Coding for Everyone and the Legacy of Mass Literacy",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "2 Sociomaterialities of Programming and Writing",
+          "section": 9,
+          "level": 0
+        },
+        {
+          "title": "3 Material Infrastructures of Writing and Programming",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "4 Literacy for Everyday Life",
+          "section": 11,
+          "level": 0
+        },
+        {
+          "title": "Conclusion: Promoting Coding Literacy—Lessons from Reading and Writing",
+          "section": 12,
+          "level": 0
+        },
+        {
+          "title": "Bibliography",
+          "section": 13,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 14,
+          "level": 0
+        }
+      ],
       "word_count": 135158,
       "page_count": 14
     },
@@ -241,6 +405,133 @@
         ],
         "technology": []
       },
+      "toc": [
+        {
+          "title": "Cover Page",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Title Page",
+          "section": 2,
+          "level": 0
+        },
+        {
+          "title": "Copyright Page",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Dedication",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgements",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "Introduction: How to Resume the Task of Tracing Associations*",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "PART I How to Deploy Controversies About the Social World",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "Introduction to Part I: Learning to Feed off Controversies",
+          "section": 9,
+          "level": 1
+        },
+        {
+          "title": "First Source of Uncertainty: No Group, Only Group Formation",
+          "section": 10,
+          "level": 1
+        },
+        {
+          "title": "Second Source of Uncertainty: Action Is Overtaken",
+          "section": 11,
+          "level": 1
+        },
+        {
+          "title": "Third Source of Uncertainty: Objects too Have Agency",
+          "section": 12,
+          "level": 1
+        },
+        {
+          "title": "Fourth Source of Uncertainty: Matters of Fact vs. Matters of Concern",
+          "section": 13,
+          "level": 1
+        },
+        {
+          "title": "Fifth Source of Uncertainty: Writing Down Risky Accounts",
+          "section": 14,
+          "level": 1
+        },
+        {
+          "title": "On the Difficulty of Being an ANT: An Interlude in the Form of a Dialog",
+          "section": 15,
+          "level": 1
+        },
+        {
+          "title": "PART II How to Render Associations Traceable Again",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Introduction to Part II: Why is it so Difficult to Trace the Social?",
+          "section": 16,
+          "level": 1
+        },
+        {
+          "title": "How to Keep the Social Flat",
+          "section": 17,
+          "level": 1
+        },
+        {
+          "title": "First Move: Localizing the Global",
+          "section": 18,
+          "level": 1
+        },
+        {
+          "title": "Second Move: Redistributing the Local",
+          "section": 19,
+          "level": 1
+        },
+        {
+          "title": "Third Move: Connecting Sites",
+          "section": 20,
+          "level": 1
+        },
+        {
+          "title": "Conclusion: From Society to Collective—Can the Social BeReassembled?",
+          "section": 21,
+          "level": 0
+        },
+        {
+          "title": "Bibliography",
+          "section": 22,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 23,
+          "level": 0
+        },
+        {
+          "title": "Footnotes",
+          "section": 24,
+          "level": 0
+        }
+      ],
       "word_count": 136737,
       "page_count": 372
     },
@@ -271,6 +562,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 117758,
       "page_count": 292
     },
@@ -307,6 +599,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 112184,
       "page_count": 21
     },
@@ -402,6 +695,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 69994,
       "page_count": 154
     },
@@ -463,6 +757,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 127051,
       "page_count": 306
     },
@@ -540,6 +835,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 216557,
       "page_count": 519
     },
@@ -570,6 +866,7 @@
         ],
         "technology": []
       },
+      "toc": [],
       "word_count": 107152,
       "page_count": 301
     },
@@ -595,6 +892,7 @@
         ],
         "technology": []
       },
+      "toc": [],
       "word_count": 60267,
       "page_count": 165
     },
@@ -640,6 +938,7 @@
         ],
         "technology": []
       },
+      "toc": [],
       "word_count": 91370,
       "page_count": 249
     },
@@ -692,6 +991,93 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Title Page",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Copyright Page",
+          "section": 1,
+          "level": 0
+        },
+        {
+          "title": "Dedication",
+          "section": 2,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Foreword",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Introduction: Intersectional Formations and Transmediated Methods",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "1 The “Problem” of Intersectionality in Digital Gaming Culture",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "2 Historical Narratives, Contemporary Games, Racialized Experiences",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "3 Hypervisible Blackness, Invisible Narratives: Black Gamers Cocreating Transmediated Masculine Identity",
+          "section": 9,
+          "level": 0
+        },
+        {
+          "title": "4 #Me2, #Me4, Black Women, and Misogynoir: Transmediated Gaming Practices as Intersectional Counterpublics",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "5 #TechFail: From Intersectional (In)Accessibility to Inclusive Design",
+          "section": 11,
+          "level": 0
+        },
+        {
+          "title": "6 Queering Intersectional Narratives: Claiming Space and Creating Possibilities",
+          "section": 12,
+          "level": 0
+        },
+        {
+          "title": "Conclusion: Resisting Intersectional Marginalization Using Transmediated Technologies in the Digital Era",
+          "section": 13,
+          "level": 0
+        },
+        {
+          "title": "Notes",
+          "section": 14,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 15,
+          "level": 0
+        }
+      ],
       "word_count": 71396,
       "page_count": 16
     },
@@ -743,6 +1129,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 74781,
       "page_count": 197
     },
@@ -859,6 +1246,208 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Title Page",
+          "section": 2,
+          "level": 0
+        },
+        {
+          "title": "Copyright Page",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Introduction: The Digital Humanities, Moment to Moment",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Part I:",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "1. Toward a Political Economy of Digital Humanities",
+          "section": 6,
+          "level": 1
+        },
+        {
+          "title": "2. All the Work You Do Not See: Labor, Digitizers, and the Foundations of Digital Humanities",
+          "section": 7,
+          "level": 1
+        },
+        {
+          "title": "3. Right-to-Left (RTL) Text: Digital Humanists Plus Half a Billion Users",
+          "section": 8,
+          "level": 1
+        },
+        {
+          "title": "4. Relation-Oriented AI: Why Indigenous Protocols Matter for the Digital Humanities",
+          "section": 9,
+          "level": 1
+        },
+        {
+          "title": "5. A U.S. Latinx Digital Humanities Manifesto",
+          "section": 10,
+          "level": 1
+        },
+        {
+          "title": "Part II",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "6. The Body Is Not (Only) a Metaphor: Rethinking Embodiment in DH",
+          "section": 11,
+          "level": 1
+        },
+        {
+          "title": "7. The Queer Gap in Cultural Analytics",
+          "section": 12,
+          "level": 1
+        },
+        {
+          "title": "8. The Feminist Data Manifest-NO: An Introduction and Four Reflections",
+          "section": 13,
+          "level": 1
+        },
+        {
+          "title": "9. Black Is Not the Absence of Light: Restoring Black Visibility and Liberation to Digital Humanities",
+          "section": 14,
+          "level": 1
+        },
+        {
+          "title": "10. Digital Humanities in the Deepfake Era",
+          "section": 15,
+          "level": 1
+        },
+        {
+          "title": "11. Operationalizing Surveillance Studies in the Digital Humanities",
+          "section": 16,
+          "level": 1
+        },
+        {
+          "title": "Part III",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "12. A Voice Interrupts: Digital Humanities as a Tool to Hear Black Life",
+          "section": 17,
+          "level": 1
+        },
+        {
+          "title": "13. Addressing an Emergency: The “Pragmatic Tilt” Required of Scholarship, Data, and Design by the Climate Crisis",
+          "section": 18,
+          "level": 1
+        },
+        {
+          "title": "14. Digital Art History as Disciplinary Practice",
+          "section": 19,
+          "level": 1
+        },
+        {
+          "title": "15. Building and Sustaining Africana Digital Humanities at HBCUs",
+          "section": 20,
+          "level": 1
+        },
+        {
+          "title": "16. A Call to Research Action: Transnational Solidarity for Digital Humanists",
+          "section": 21,
+          "level": 1
+        },
+        {
+          "title": "17. Game Studies, Endgame?",
+          "section": 22,
+          "level": 1
+        },
+        {
+          "title": "Part IV",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "18. The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities",
+          "section": 23,
+          "level": 1
+        },
+        {
+          "title": "19. Language Is Not a Default Setting: Countering DH’s English Problem",
+          "section": 24,
+          "level": 1
+        },
+        {
+          "title": "20. Librarians’ Illegible Labor: Toward a Documentary Practice of Digital Humanities",
+          "section": 25,
+          "level": 1
+        },
+        {
+          "title": "21. Reframing the Conversation: Digital Humanists, Disabilities, and Accessibility",
+          "section": 26,
+          "level": 1
+        },
+        {
+          "title": "22. From Precedents to Collective Action: Realities and Recommendations for Digital Dissertations in History",
+          "section": 27,
+          "level": 1
+        },
+        {
+          "title": "23. Critique Is the Steam: Reorienting Critical Digital Humanities across Disciplines",
+          "section": 28,
+          "level": 1
+        },
+        {
+          "title": "Part V",
+          "section": 29,
+          "level": 0
+        },
+        {
+          "title": "24. Being Undisciplined: Black Womanhood in Digital Spaces",
+          "section": 30,
+          "level": 1
+        },
+        {
+          "title": "25. How This Helps Us Get Free: Telling Black Stories through Technology",
+          "section": 31,
+          "level": 1
+        },
+        {
+          "title": "26. “Blackness” in France: Taking Up Mediatized Space",
+          "section": 32,
+          "level": 1
+        },
+        {
+          "title": "27. The Power to Create: Building Alternative (Digital) Worlds",
+          "section": 33,
+          "level": 1
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 34,
+          "level": 0
+        },
+        {
+          "title": "Figure Descriptions",
+          "section": 36,
+          "level": 0
+        },
+        {
+          "title": "Contributors",
+          "section": 35,
+          "level": 0
+        }
+      ],
       "word_count": 193614,
       "page_count": 36
     },
@@ -900,6 +1489,448 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Illustrations",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Introduction: How to See One Billion Images",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "Looking at Culture with Computers",
+          "section": 6,
+          "level": 1
+        },
+        {
+          "title": "Cultural Analytics: Five Ideas",
+          "section": 6,
+          "level": 1
+        },
+        {
+          "title": "Cultural Analytics: Twelve Research Challenges",
+          "section": 6,
+          "level": 1
+        },
+        {
+          "title": "What Cultural Analytics Is Not",
+          "section": 6,
+          "level": 1
+        },
+        {
+          "title": "Cultural Analytics, Media Theory, and Software Studies",
+          "section": 6,
+          "level": 1
+        },
+        {
+          "title": "Using This Book in Classes",
+          "section": 6,
+          "level": 1
+        },
+        {
+          "title": "I Studying Culture at Scale",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "1 From New Media to More Media",
+          "section": 7,
+          "level": 1
+        },
+        {
+          "title": "“From New Media to More Media” (2008)",
+          "section": 7,
+          "level": 2
+        },
+        {
+          "title": "Observing Global Culture in Real Time",
+          "section": 7,
+          "level": 2
+        },
+        {
+          "title": "Cultural Analytics in Historical Context",
+          "section": 7,
+          "level": 2
+        },
+        {
+          "title": "2 The Science of Culture?",
+          "section": 8,
+          "level": 1
+        },
+        {
+          "title": "Analyzing, Visualizing, and Interacting with Cultural Data: Examples",
+          "section": 8,
+          "level": 2
+        },
+        {
+          "title": "History versus Present, Professionals versus Amateurs",
+          "section": 8,
+          "level": 2
+        },
+        {
+          "title": "The Regular versus the Particular",
+          "section": 8,
+          "level": 2
+        },
+        {
+          "title": "The Science of Culture? Deterministic Laws, Statistical Models, Simulation",
+          "section": 8,
+          "level": 2
+        },
+        {
+          "title": "3 Culture Industry and Media Analytics",
+          "section": 9,
+          "level": 1
+        },
+        {
+          "title": "A New Stage in Media Technology History",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "Media Analytics Examples",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "The Two Parts of Media Analytics",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "Automation: Media Analysis",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "Automation: Media Actions",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "Media Analytics and Cultural Analytics",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "II Representing Culture as Data",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "4 Types of Cultural Data",
+          "section": 10,
+          "level": 1
+        },
+        {
+          "title": "Media: Social Networks and Professional Networks",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "Behavior: Digital and Physical Traces",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "Representing Interaction",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "Events, Places, Organizations",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "5 Cultural Sampling",
+          "section": 11,
+          "level": 1
+        },
+        {
+          "title": "The Islands and the Ocean",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "Museums versus Libraries",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "Creating Representative Samples",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "How to See the Invisible",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "The Limitations of Random Samples",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "Statistics as Reduction",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "Why We Need Big Data to Study Cultures",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "Is Sampling Necessary?",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "6 Metadata and Features",
+          "section": 12,
+          "level": 1
+        },
+        {
+          "title": "From a World to a Dataset",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "Metadata and Features",
+          "section": 18,
+          "level": 2
+        },
+        {
+          "title": "Data = Objects + Features",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "Statistics in the Nineteenth and Twentieth Centuries: From a Single to Multiple Variables",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "Interpretation, Explanation, Automation",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "The Semantic Gap",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "7 Language, Categories, and Senses",
+          "section": 13,
+          "level": 1
+        },
+        {
+          "title": "Data Types",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "Measurement Scales",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "Language and Senses",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "Senses and Numbers",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "Measuring Perceptions",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "Top-Down and Bottom-Up Analysis",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "Prescriptive Aesthetics and Modernisms",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "Analysis Examples: 776 van Gogh Paintings and One Million Manga Pages",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "More Examples: One Million Artworks and 42,571 Movies",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "The Society of Categories",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "III Exploring Cultural Data",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "8 Information Visualization",
+          "section": 14,
+          "level": 1
+        },
+        {
+          "title": "What Is Visualization?",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "Reduction and Space",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "Visualization without Reduction",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "Artistic Media Visualization",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "Cultural Time Series",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "Beyond Information Visualization",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "9 Exploratory Media Analysis",
+          "section": 15,
+          "level": 1
+        },
+        {
+          "title": "Against Search",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "The Interface",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "Image Processing and Computer Vision",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "Using Image Features for Exploratory Media Analysis",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "Seeing versus Analyzing",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "10 Methods of Media Visualization",
+          "section": 16,
+          "level": 1
+        },
+        {
+          "title": "Image Montage",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "Sampling versus Summarization",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "Temporal Sampling",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "Spatial Sampling",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "Remapping",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "Conclusion: Can We Think without Categories?",
+          "section": 17,
+          "level": 1
+        },
+        {
+          "title": "Do We Want to “Explain” Culture?",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "Is the Goal of Cultural Analytics to Study Patterns? (Yes and No)",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "How to Think without Categories",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "Learning to See at a New Scale",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "Notes",
+          "section": 18,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 19,
+          "level": 0
+        }
+      ],
       "word_count": 131949,
       "page_count": 20
     },
@@ -935,6 +1966,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 102984,
       "page_count": 259
     },
@@ -960,6 +1992,403 @@
         ],
         "technology": []
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "About the Author",
+          "section": 1,
+          "level": 0
+        },
+        {
+          "title": "Other Books by This Author",
+          "section": 2,
+          "level": 0
+        },
+        {
+          "title": "Title Page",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Copyright",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Publisher’s Note",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Foreword to the English edition",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "Preface",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "Part I",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "1 - Las Meninas",
+          "section": 8,
+          "level": 1
+        },
+        {
+          "title": "2 - The Prose of the World",
+          "section": 9,
+          "level": 1
+        },
+        {
+          "title": "I The four similitudes",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "II Signatures",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "III The limits of the world",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "IV The writing of things",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "V The being of language",
+          "section": 9,
+          "level": 2
+        },
+        {
+          "title": "3 - Representing",
+          "section": 10,
+          "level": 1
+        },
+        {
+          "title": "I Don Quixote",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "II Order",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "III The representation of the sign",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "IV Duplicated representation",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "V The imagination of resemblance",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "VI Mathesis and ‘taxinomia’",
+          "section": 10,
+          "level": 2
+        },
+        {
+          "title": "4 - Speaking",
+          "section": 11,
+          "level": 1
+        },
+        {
+          "title": "I Criticism and commentary",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "II General grammar",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "III The theory of the verb",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "IV Articulation",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "V Designation",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "VI Derivation",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "VII The quadrilateral of language",
+          "section": 11,
+          "level": 2
+        },
+        {
+          "title": "5 - Classifying",
+          "section": 12,
+          "level": 1
+        },
+        {
+          "title": "I What the historians say",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "II Natural history",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "III Structure",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "IV Character",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "V Continuity and catastrophe",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "VI Monsters and fossils",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "VII The discourse of nature",
+          "section": 12,
+          "level": 2
+        },
+        {
+          "title": "6 - Exchanging",
+          "section": 13,
+          "level": 1
+        },
+        {
+          "title": "I The analysis of wealth",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "II Money and prices",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "III Mercantilism",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "IV The pledge and the price",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "V The creation of value",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "VI Utility",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "VII General table",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "VIII Desire and representation",
+          "section": 13,
+          "level": 2
+        },
+        {
+          "title": "Part II",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "7 - The Limits of Representation",
+          "section": 14,
+          "level": 1
+        },
+        {
+          "title": "I The age of history",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "II The measure of labour",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "III The organic structure of beings",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "IV Word inflection",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "V Ideology and criticism",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "VI Objective syntheses",
+          "section": 14,
+          "level": 2
+        },
+        {
+          "title": "8 - Labour, Life, Language",
+          "section": 15,
+          "level": 1
+        },
+        {
+          "title": "I The new empiricities",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "II Ricardo",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "III Cuvier",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "IV Bopp",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "V Language become object",
+          "section": 15,
+          "level": 2
+        },
+        {
+          "title": "9 - Man and his Doubles",
+          "section": 16,
+          "level": 1
+        },
+        {
+          "title": "I The return of language",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "II The place of the king",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "III The analytic of finitude",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "IV The empirical and the transcendental",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "V The ‘cogito’ and the unthought",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "VI The retreat and return of the origin",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "VII Discourse and man’s being",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "VIII The anthropological sleep",
+          "section": 16,
+          "level": 2
+        },
+        {
+          "title": "10 - The Human Sciences",
+          "section": 17,
+          "level": 1
+        },
+        {
+          "title": "I The three faces of knowledge",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "II The form of the human sciences",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "III The three models",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "IV History",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "V Psychoanalysis and ethnology",
+          "section": 17,
+          "level": 2
+        },
+        {
+          "title": "VI In conclusion",
+          "section": 17,
+          "level": 2
+        }
+      ],
       "word_count": 179807,
       "page_count": 18
     },
@@ -995,6 +2424,93 @@
         ],
         "technology": []
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Title Page",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Copyright Page",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Dedication",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "Preface",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "Introduction: What Is Misogynoir?",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "1. Misogynoir Is a Drag",
+          "section": 9,
+          "level": 0
+        },
+        {
+          "title": "2. Transforming Misogynoir through Trans Advocacy",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "3. Web Show Worldbuilding Mitigates Misogynoir",
+          "section": 11,
+          "level": 0
+        },
+        {
+          "title": "4. Alchemists in Action against Misogynoir",
+          "section": 12,
+          "level": 0
+        },
+        {
+          "title": "Conclusion: Misogynoir Transformed: #BlackWomenDragBack",
+          "section": 13,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 14,
+          "level": 0
+        },
+        {
+          "title": "Notes",
+          "section": 15,
+          "level": 0
+        },
+        {
+          "title": "Bibliography",
+          "section": 16,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 17,
+          "level": 0
+        },
+        {
+          "title": "About the Author",
+          "section": 18,
+          "level": 0
+        }
+      ],
       "word_count": 87207,
       "page_count": 18
     },
@@ -1061,6 +2577,298 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Title Page",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Copyright Page",
+          "section": 2,
+          "level": 0
+        },
+        {
+          "title": "Dedication",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgements",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Prologue",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Chapter One - TOWARD EMBODIED VIRTUALITY",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "Seriation, Skeuomorphs, and Conceptual Constellations",
+          "section": 7,
+          "level": 1
+        },
+        {
+          "title": "Information Theory and Everyday Life",
+          "section": 8,
+          "level": 1
+        },
+        {
+          "title": "Virtuality and Contemporary Literature",
+          "section": 9,
+          "level": 1
+        },
+        {
+          "title": "Chapter Two - VIRTUAL BODIES AND FLICKERING SIGNIFIERS",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "Signifying the Processes of Production",
+          "section": 11,
+          "level": 1
+        },
+        {
+          "title": "Information Narratives and Bodies of Information",
+          "section": 12,
+          "level": 1
+        },
+        {
+          "title": "Functionalities of Narrative",
+          "section": 13,
+          "level": 1
+        },
+        {
+          "title": "Chapter Three - CONTESTING FOR THE BODY OF INFORMATION: THE MACY CONFERENCES ON CYBERNETICS",
+          "section": 14,
+          "level": 0
+        },
+        {
+          "title": "The Meaning(lessness) of Information",
+          "section": 15,
+          "level": 1
+        },
+        {
+          "title": "Neural Nets as Logical Operators",
+          "section": 16,
+          "level": 1
+        },
+        {
+          "title": "The Rat and the Homeostat: Looping between Concept and Artifact",
+          "section": 17,
+          "level": 1
+        },
+        {
+          "title": "Kubie’s Last Stand",
+          "section": 18,
+          "level": 1
+        },
+        {
+          "title": "Circling the Observer",
+          "section": 19,
+          "level": 1
+        },
+        {
+          "title": "Janet Freud/Freed",
+          "section": 20,
+          "level": 1
+        },
+        {
+          "title": "Chapter Four - LIBERAL SUBJECTIVITY IMPERILED: NORBERT WIENER AND CYBERNETIC ANXIETY",
+          "section": 21,
+          "level": 0
+        },
+        {
+          "title": "Of Molecules and Men: Cybernetics and Probability",
+          "section": 22,
+          "level": 1
+        },
+        {
+          "title": "Crossing Boundaries: Everything Is an Analogy, Including This Statement",
+          "section": 23,
+          "level": 1
+        },
+        {
+          "title": "Entropy as Cultural Relay: From Heat Engines to Information",
+          "section": 24,
+          "level": 1
+        },
+        {
+          "title": "The Argument for Celibacy: Preserving the Boundaries of the Subject",
+          "section": 25,
+          "level": 1
+        },
+        {
+          "title": "Chapter Five - FROM HYPHEN TO SPLICE: CYBERNETIC SYNTAX IN LIMBO",
+          "section": 26,
+          "level": 0
+        },
+        {
+          "title": "Chapter Six - THE SECOND WAVE OF CYBERNETICS: FROM REFLEXIVITY TO SELF-ORGANIZATION",
+          "section": 27,
+          "level": 0
+        },
+        {
+          "title": "Reflexivity Revisited",
+          "section": 28,
+          "level": 1
+        },
+        {
+          "title": "Reconfiguring the Liberal Humanist Subject",
+          "section": 29,
+          "level": 1
+        },
+        {
+          "title": "Autopoiesis and Evolution",
+          "section": 30,
+          "level": 1
+        },
+        {
+          "title": "The Voice of the Other: Varela and Embodiment",
+          "section": 31,
+          "level": 1
+        },
+        {
+          "title": "Chapter Seven - TURNING REALITY INSIDE OUT AND RIGHT SIDE OUT: BOUNDARY WORK ...",
+          "section": 32,
+          "level": 0
+        },
+        {
+          "title": "The Schizoid Woman and the Dark-Haired Girl",
+          "section": 33,
+          "level": 1
+        },
+        {
+          "title": "Capitalism and the Schizoid Android",
+          "section": 34,
+          "level": 1
+        },
+        {
+          "title": "The Schizoid Woman (De)Constructs Male Subjectivity",
+          "section": 35,
+          "level": 1
+        },
+        {
+          "title": "Wasting Time in the Tomb World",
+          "section": 36,
+          "level": 1
+        },
+        {
+          "title": "Turning Right-Side Out in Dr. Bloodmoney",
+          "section": 37,
+          "level": 1
+        },
+        {
+          "title": "Dark-Haired Girl/Schizoid Woman as Facade: The Reality Underneath",
+          "section": 38,
+          "level": 1
+        },
+        {
+          "title": "Punctuating the Endless Regress of Reflexivity",
+          "section": 39,
+          "level": 1
+        },
+        {
+          "title": "Chapter Eight - THE MATERIALITY OF INFORMATICS",
+          "section": 40,
+          "level": 0
+        },
+        {
+          "title": "Foucault’s Archaeology and the Erasure of Embodiment",
+          "section": 41,
+          "level": 1
+        },
+        {
+          "title": "Incorporating Practices and Embodied Knowledge",
+          "section": 42,
+          "level": 1
+        },
+        {
+          "title": "Audiotape and Its Cultural Niche",
+          "section": 43,
+          "level": 1
+        },
+        {
+          "title": "Chapter Nine - NARRATIVES OF ARTIFICIAL LIFE",
+          "section": 44,
+          "level": 0
+        },
+        {
+          "title": "The Nature and Artifice of Artificial Life",
+          "section": 45,
+          "level": 1
+        },
+        {
+          "title": "Positioning the Field: The Politics of Artificial Life",
+          "section": 46,
+          "level": 1
+        },
+        {
+          "title": "Reconfiguring the Body of Information",
+          "section": 47,
+          "level": 1
+        },
+        {
+          "title": "The Computational Universe",
+          "section": 48,
+          "level": 1
+        },
+        {
+          "title": "Murmurs from the Body",
+          "section": 49,
+          "level": 1
+        },
+        {
+          "title": "Chapter Ten - THE SEMIOTICS OF VIRTUALITY : MAPPING THE POSTHUMAN",
+          "section": 50,
+          "level": 0
+        },
+        {
+          "title": "The Mutating Bodies of Blood Music",
+          "section": 51,
+          "level": 1
+        },
+        {
+          "title": "The Hyperreality of Terminal Games",
+          "section": 52,
+          "level": 1
+        },
+        {
+          "title": "Material Signifiers in Galatea 2.2",
+          "section": 53,
+          "level": 1
+        },
+        {
+          "title": "Informational Infection and Hygiene in Snow Crash",
+          "section": 54,
+          "level": 1
+        },
+        {
+          "title": "Inscribing and Incorporating: The Future (of the) Posthuman",
+          "section": 55,
+          "level": 1
+        },
+        {
+          "title": "Chapter Eleven - CONCLUSION: WHAT DOES IT MEAN TO BE POSTHUMAN ?",
+          "section": 56,
+          "level": 0
+        },
+        {
+          "title": "Notes",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": null,
+          "level": 0
+        }
+      ],
       "word_count": 148911,
       "page_count": 89
     },
@@ -1093,6 +2901,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 83115,
       "page_count": 201
     },
@@ -1139,6 +2948,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 68300,
       "page_count": 177
     },
@@ -1249,6 +3059,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 70876,
       "page_count": 298
     },
@@ -1284,6 +3095,103 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Title Page",
+          "section": 1,
+          "level": 0
+        },
+        {
+          "title": "Copyright Page",
+          "section": 2,
+          "level": 0
+        },
+        {
+          "title": "Dedication",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Introduction: The Power of Algorithms",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "1. A Society, Searching",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "2. Searching for Black Girls",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "3. Searching for People and Communities",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "4. Searching for Protections from Search Engines",
+          "section": 9,
+          "level": 0
+        },
+        {
+          "title": "5. The Future of Knowledge in the Public",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "6. The Future of Information Culture",
+          "section": 11,
+          "level": 0
+        },
+        {
+          "title": "Conclusion: Algorithms of Oppression",
+          "section": 12,
+          "level": 0
+        },
+        {
+          "title": "Epilogue",
+          "section": 13,
+          "level": 0
+        },
+        {
+          "title": "Notes",
+          "section": 14,
+          "level": 0
+        },
+        {
+          "title": "References",
+          "section": 15,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 16,
+          "level": 0
+        },
+        {
+          "title": "About the Author",
+          "section": 17,
+          "level": 0
+        }
+      ],
       "word_count": 73321,
       "page_count": 18
     },
@@ -1315,6 +3223,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 120824,
       "page_count": 298
     },
@@ -1342,6 +3251,88 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 2,
+          "level": 0
+        },
+        {
+          "title": "Foreword by Genie Lauren",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Preface",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Introduction: Making Race and Gender Politics on Twitter",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "1 Women Tweet on Violence: From #YesAllWomen to #MeToo",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "2 Visions of Black Feminism: #FastTailedGirls, #YouOKSis, #SayHerName",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "3 #GirlsLikeUs: Trans Feminist Advocacy and Community Building",
+          "section": 9,
+          "level": 0
+        },
+        {
+          "title": "4 Racial Violence and Racial Profiling: From #OscarGrant to #TrayvonMartin",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "5 From #Ferguson to #FalconHeights: The Networked Case for Black Lives",
+          "section": 11,
+          "level": 0
+        },
+        {
+          "title": "6 The Utility of Digital Allyship: #AllMenCan and #CrimingWhileWhite",
+          "section": 12,
+          "level": 0
+        },
+        {
+          "title": "Conclusion: #HashtagActivism: Here to Stay",
+          "section": 13,
+          "level": 0
+        },
+        {
+          "title": "Afterword: Ethics, Backlash, and Access in Twitter Research",
+          "section": 14,
+          "level": 0
+        },
+        {
+          "title": "Notes",
+          "section": 15,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 16,
+          "level": 0
+        }
+      ],
       "word_count": 68253,
       "page_count": 17
     },
@@ -1448,6 +3439,88 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Series Editor’s Introduction",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "Preface",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "Introduction: #TravelingWhileTrans, Design Justice, and Escape from the Matrix of Domination",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "1 Design Values: Hard-Coding Liberation?",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "2 Design Practices: “Nothing about Us without Us”",
+          "section": 9,
+          "level": 0
+        },
+        {
+          "title": "3 Design Narratives: From TXTMob to Twitter",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "4 Design Sites: Hackerspaces, Fablabs, Hackathons, and DiscoTechs",
+          "section": 11,
+          "level": 0
+        },
+        {
+          "title": "5 Design Pedagogies: “There’s Something Wrong with This System!”",
+          "section": 12,
+          "level": 0
+        },
+        {
+          "title": "Directions for Future Work: From #TechWontBuildIt to #DesignJustice",
+          "section": 13,
+          "level": 0
+        },
+        {
+          "title": "Glossary",
+          "section": 14,
+          "level": 0
+        },
+        {
+          "title": "Notes",
+          "section": 15,
+          "level": 0
+        },
+        {
+          "title": "References",
+          "section": 16,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 17,
+          "level": 0
+        }
+      ],
       "word_count": 113659,
       "page_count": 17
     },
@@ -1541,6 +3614,153 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Introductions",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Your Computer Is on Fire",
+          "section": 4,
+          "level": 1
+        },
+        {
+          "title": "When Did the Fire Start?",
+          "section": 5,
+          "level": 1
+        },
+        {
+          "title": "Part I Nothing Is Virtual",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "1 The Cloud Is a Factory",
+          "section": 6,
+          "level": 1
+        },
+        {
+          "title": "2 Your AI Is a Human",
+          "section": 7,
+          "level": 1
+        },
+        {
+          "title": "3 A Network Is Not a Network",
+          "section": 8,
+          "level": 1
+        },
+        {
+          "title": "4 The Internet Will Be Decolonized",
+          "section": 9,
+          "level": 1
+        },
+        {
+          "title": "5 Capture Is Pleasure",
+          "section": 10,
+          "level": 1
+        },
+        {
+          "title": "Part II This Is an Emergency",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "6 Sexism Is a Feature, Not a Bug",
+          "section": 11,
+          "level": 1
+        },
+        {
+          "title": "7 Gender Is a Corporate Tool",
+          "section": 12,
+          "level": 1
+        },
+        {
+          "title": "8 Siri Disciplines",
+          "section": 13,
+          "level": 1
+        },
+        {
+          "title": "9 Your Robot Isn’t Neutral",
+          "section": 14,
+          "level": 1
+        },
+        {
+          "title": "10 Broken Is Word",
+          "section": 15,
+          "level": 1
+        },
+        {
+          "title": "11 You Can’t Make Games about Much",
+          "section": 16,
+          "level": 1
+        },
+        {
+          "title": "Part III Where Will the Fire Spread?",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "12 Coding Is Not Empowerment",
+          "section": 17,
+          "level": 1
+        },
+        {
+          "title": "13 Source Code Isn’t",
+          "section": 18,
+          "level": 1
+        },
+        {
+          "title": "14 Skills Will Not Set You Free",
+          "section": 19,
+          "level": 1
+        },
+        {
+          "title": "15 Platforms Are Infrastructures on Fire",
+          "section": 20,
+          "level": 1
+        },
+        {
+          "title": "16 Typing Is Dead",
+          "section": 21,
+          "level": 1
+        },
+        {
+          "title": "Afterwords",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "How to Stop Worrying about Clean Signals and Start Loving the Noise",
+          "section": 22,
+          "level": 1
+        },
+        {
+          "title": "How Do We Live Now? In the Aftermath of Ourselves",
+          "section": 23,
+          "level": 1
+        },
+        {
+          "title": "Contributors",
+          "section": 24,
+          "level": 0
+        },
+        {
+          "title": "Index",
+          "section": 25,
+          "level": 0
+        }
+      ],
       "word_count": 156299,
       "page_count": 26
     },
@@ -1566,6 +3786,143 @@
           }
         ]
       },
+      "toc": [
+        {
+          "title": "Cover",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Title Page",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Copyright Notice",
+          "section": 3,
+          "level": 0
+        },
+        {
+          "title": "Dedication",
+          "section": null,
+          "level": 0
+        },
+        {
+          "title": "Author’s Note",
+          "section": 4,
+          "level": 0
+        },
+        {
+          "title": "Introduction: Red Flags",
+          "section": 5,
+          "level": 0
+        },
+        {
+          "title": "1: From Poorhouse to Database",
+          "section": 6,
+          "level": 0
+        },
+        {
+          "title": "2: Automating Eligibility in the Heartland",
+          "section": 7,
+          "level": 0
+        },
+        {
+          "title": "3: High-Tech Homelessness in the City of Angels",
+          "section": 8,
+          "level": 0
+        },
+        {
+          "title": "4: The Allegheny Algorithm",
+          "section": 9,
+          "level": 0
+        },
+        {
+          "title": "5: The Digital Poorhouse",
+          "section": 10,
+          "level": 0
+        },
+        {
+          "title": "Conclusion: Dismantling the Digital Poorhouse",
+          "section": 11,
+          "level": 0
+        },
+        {
+          "title": "Acknowledgments",
+          "section": 12,
+          "level": 0
+        },
+        {
+          "title": "Sources and Methods",
+          "section": 13,
+          "level": 0
+        },
+        {
+          "title": "Notes",
+          "section": 14,
+          "level": 0
+        },
+        {
+          "title": "Notes 1",
+          "section": 14,
+          "level": 1
+        },
+        {
+          "title": "Notes 2",
+          "section": 15,
+          "level": 1
+        },
+        {
+          "title": "Notes 3",
+          "section": 16,
+          "level": 1
+        },
+        {
+          "title": "Notes 4",
+          "section": 17,
+          "level": 1
+        },
+        {
+          "title": "Notes 5",
+          "section": 18,
+          "level": 1
+        },
+        {
+          "title": "Notes: Conclusion",
+          "section": 19,
+          "level": 1
+        },
+        {
+          "title": "Index",
+          "section": 20,
+          "level": 0
+        },
+        {
+          "title": "Praise for Automating Inequality",
+          "section": 21,
+          "level": 0
+        },
+        {
+          "title": "About the Author",
+          "section": 22,
+          "level": 0
+        },
+        {
+          "title": "Newsletter Sign-up",
+          "section": 23,
+          "level": 0
+        },
+        {
+          "title": "Contents",
+          "section": 24,
+          "level": 0
+        },
+        {
+          "title": "Copyright",
+          "section": 25,
+          "level": 0
+        }
+      ],
       "word_count": 77430,
       "page_count": 26
     },
@@ -1662,6 +4019,7 @@
           }
         ]
       },
+      "toc": [],
       "word_count": 75522,
       "page_count": 1
     },
@@ -1687,6 +4045,7 @@
         ],
         "technology": []
       },
+      "toc": [],
       "word_count": 85202,
       "page_count": 247
     }

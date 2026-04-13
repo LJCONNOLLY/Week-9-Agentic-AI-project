@@ -4,6 +4,208 @@
   "author": [
     "Lauren F. Klein Matthew K. Gold"
   ],
+  "toc": [
+    {
+      "title": "Cover",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Title Page",
+      "section": 2,
+      "level": 0
+    },
+    {
+      "title": "Copyright Page",
+      "section": 3,
+      "level": 0
+    },
+    {
+      "title": "Contents",
+      "section": 4,
+      "level": 0
+    },
+    {
+      "title": "Introduction: The Digital Humanities, Moment to Moment",
+      "section": 5,
+      "level": 0
+    },
+    {
+      "title": "Part I:",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "1. Toward a Political Economy of Digital Humanities",
+      "section": 6,
+      "level": 1
+    },
+    {
+      "title": "2. All the Work You Do Not See: Labor, Digitizers, and the Foundations of Digital Humanities",
+      "section": 7,
+      "level": 1
+    },
+    {
+      "title": "3. Right-to-Left (RTL) Text: Digital Humanists Plus Half a Billion Users",
+      "section": 8,
+      "level": 1
+    },
+    {
+      "title": "4. Relation-Oriented AI: Why Indigenous Protocols Matter for the Digital Humanities",
+      "section": 9,
+      "level": 1
+    },
+    {
+      "title": "5. A U.S. Latinx Digital Humanities Manifesto",
+      "section": 10,
+      "level": 1
+    },
+    {
+      "title": "Part II",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "6. The Body Is Not (Only) a Metaphor: Rethinking Embodiment in DH",
+      "section": 11,
+      "level": 1
+    },
+    {
+      "title": "7. The Queer Gap in Cultural Analytics",
+      "section": 12,
+      "level": 1
+    },
+    {
+      "title": "8. The Feminist Data Manifest-NO: An Introduction and Four Reflections",
+      "section": 13,
+      "level": 1
+    },
+    {
+      "title": "9. Black Is Not the Absence of Light: Restoring Black Visibility and Liberation to Digital Humanities",
+      "section": 14,
+      "level": 1
+    },
+    {
+      "title": "10. Digital Humanities in the Deepfake Era",
+      "section": 15,
+      "level": 1
+    },
+    {
+      "title": "11. Operationalizing Surveillance Studies in the Digital Humanities",
+      "section": 16,
+      "level": 1
+    },
+    {
+      "title": "Part III",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "12. A Voice Interrupts: Digital Humanities as a Tool to Hear Black Life",
+      "section": 17,
+      "level": 1
+    },
+    {
+      "title": "13. Addressing an Emergency: The “Pragmatic Tilt” Required of Scholarship, Data, and Design by the Climate Crisis",
+      "section": 18,
+      "level": 1
+    },
+    {
+      "title": "14. Digital Art History as Disciplinary Practice",
+      "section": 19,
+      "level": 1
+    },
+    {
+      "title": "15. Building and Sustaining Africana Digital Humanities at HBCUs",
+      "section": 20,
+      "level": 1
+    },
+    {
+      "title": "16. A Call to Research Action: Transnational Solidarity for Digital Humanists",
+      "section": 21,
+      "level": 1
+    },
+    {
+      "title": "17. Game Studies, Endgame?",
+      "section": 22,
+      "level": 1
+    },
+    {
+      "title": "Part IV",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "18. The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities",
+      "section": 23,
+      "level": 1
+    },
+    {
+      "title": "19. Language Is Not a Default Setting: Countering DH’s English Problem",
+      "section": 24,
+      "level": 1
+    },
+    {
+      "title": "20. Librarians’ Illegible Labor: Toward a Documentary Practice of Digital Humanities",
+      "section": 25,
+      "level": 1
+    },
+    {
+      "title": "21. Reframing the Conversation: Digital Humanists, Disabilities, and Accessibility",
+      "section": 26,
+      "level": 1
+    },
+    {
+      "title": "22. From Precedents to Collective Action: Realities and Recommendations for Digital Dissertations in History",
+      "section": 27,
+      "level": 1
+    },
+    {
+      "title": "23. Critique Is the Steam: Reorienting Critical Digital Humanities across Disciplines",
+      "section": 28,
+      "level": 1
+    },
+    {
+      "title": "Part V",
+      "section": 29,
+      "level": 0
+    },
+    {
+      "title": "24. Being Undisciplined: Black Womanhood in Digital Spaces",
+      "section": 30,
+      "level": 1
+    },
+    {
+      "title": "25. How This Helps Us Get Free: Telling Black Stories through Technology",
+      "section": 31,
+      "level": 1
+    },
+    {
+      "title": "26. “Blackness” in France: Taking Up Mediatized Space",
+      "section": 32,
+      "level": 1
+    },
+    {
+      "title": "27. The Power to Create: Building Alternative (Digital) Worlds",
+      "section": 33,
+      "level": 1
+    },
+    {
+      "title": "Acknowledgments",
+      "section": 34,
+      "level": 0
+    },
+    {
+      "title": "Figure Descriptions",
+      "section": 36,
+      "level": 0
+    },
+    {
+      "title": "Contributors",
+      "section": 35,
+      "level": 0
+    }
+  ],
   "pages": [
     {
       "locator": 1,

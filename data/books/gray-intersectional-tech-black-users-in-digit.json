@@ -5,6 +5,93 @@
     "Kishonna L. Gray",
     "Anita Sarkeesian"
   ],
+  "toc": [
+    {
+      "title": "Cover",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Title Page",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Copyright Page",
+      "section": 1,
+      "level": 0
+    },
+    {
+      "title": "Dedication",
+      "section": 2,
+      "level": 0
+    },
+    {
+      "title": "Contents",
+      "section": 3,
+      "level": 0
+    },
+    {
+      "title": "Foreword",
+      "section": 4,
+      "level": 0
+    },
+    {
+      "title": "Acknowledgments",
+      "section": 5,
+      "level": 0
+    },
+    {
+      "title": "Introduction: Intersectional Formations and Transmediated Methods",
+      "section": 6,
+      "level": 0
+    },
+    {
+      "title": "1 The “Problem” of Intersectionality in Digital Gaming Culture",
+      "section": 7,
+      "level": 0
+    },
+    {
+      "title": "2 Historical Narratives, Contemporary Games, Racialized Experiences",
+      "section": 8,
+      "level": 0
+    },
+    {
+      "title": "3 Hypervisible Blackness, Invisible Narratives: Black Gamers Cocreating Transmediated Masculine Identity",
+      "section": 9,
+      "level": 0
+    },
+    {
+      "title": "4 #Me2, #Me4, Black Women, and Misogynoir: Transmediated Gaming Practices as Intersectional Counterpublics",
+      "section": 10,
+      "level": 0
+    },
+    {
+      "title": "5 #TechFail: From Intersectional (In)Accessibility to Inclusive Design",
+      "section": 11,
+      "level": 0
+    },
+    {
+      "title": "6 Queering Intersectional Narratives: Claiming Space and Creating Possibilities",
+      "section": 12,
+      "level": 0
+    },
+    {
+      "title": "Conclusion: Resisting Intersectional Marginalization Using Transmediated Technologies in the Digital Era",
+      "section": 13,
+      "level": 0
+    },
+    {
+      "title": "Notes",
+      "section": 14,
+      "level": 0
+    },
+    {
+      "title": "Index",
+      "section": 15,
+      "level": 0
+    }
+  ],
   "pages": [
     {
       "locator": 1,

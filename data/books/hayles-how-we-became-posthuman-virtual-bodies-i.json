@@ -4,6 +4,298 @@
   "author": [
     "N. Katherine Hayles"
   ],
+  "toc": [
+    {
+      "title": "Title Page",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Copyright Page",
+      "section": 2,
+      "level": 0
+    },
+    {
+      "title": "Dedication",
+      "section": 3,
+      "level": 0
+    },
+    {
+      "title": "Acknowledgements",
+      "section": 4,
+      "level": 0
+    },
+    {
+      "title": "Prologue",
+      "section": 5,
+      "level": 0
+    },
+    {
+      "title": "Chapter One - TOWARD EMBODIED VIRTUALITY",
+      "section": 6,
+      "level": 0
+    },
+    {
+      "title": "Seriation, Skeuomorphs, and Conceptual Constellations",
+      "section": 7,
+      "level": 1
+    },
+    {
+      "title": "Information Theory and Everyday Life",
+      "section": 8,
+      "level": 1
+    },
+    {
+      "title": "Virtuality and Contemporary Literature",
+      "section": 9,
+      "level": 1
+    },
+    {
+      "title": "Chapter Two - VIRTUAL BODIES AND FLICKERING SIGNIFIERS",
+      "section": 10,
+      "level": 0
+    },
+    {
+      "title": "Signifying the Processes of Production",
+      "section": 11,
+      "level": 1
+    },
+    {
+      "title": "Information Narratives and Bodies of Information",
+      "section": 12,
+      "level": 1
+    },
+    {
+      "title": "Functionalities of Narrative",
+      "section": 13,
+      "level": 1
+    },
+    {
+      "title": "Chapter Three - CONTESTING FOR THE BODY OF INFORMATION: THE MACY CONFERENCES ON CYBERNETICS",
+      "section": 14,
+      "level": 0
+    },
+    {
+      "title": "The Meaning(lessness) of Information",
+      "section": 15,
+      "level": 1
+    },
+    {
+      "title": "Neural Nets as Logical Operators",
+      "section": 16,
+      "level": 1
+    },
+    {
+      "title": "The Rat and the Homeostat: Looping between Concept and Artifact",
+      "section": 17,
+      "level": 1
+    },
+    {
+      "title": "Kubie’s Last Stand",
+      "section": 18,
+      "level": 1
+    },
+    {
+      "title": "Circling the Observer",
+      "section": 19,
+      "level": 1
+    },
+    {
+      "title": "Janet Freud/Freed",
+      "section": 20,
+      "level": 1
+    },
+    {
+      "title": "Chapter Four - LIBERAL SUBJECTIVITY IMPERILED: NORBERT WIENER AND CYBERNETIC ANXIETY",
+      "section": 21,
+      "level": 0
+    },
+    {
+      "title": "Of Molecules and Men: Cybernetics and Probability",
+      "section": 22,
+      "level": 1
+    },
+    {
+      "title": "Crossing Boundaries: Everything Is an Analogy, Including This Statement",
+      "section": 23,
+      "level": 1
+    },
+    {
+      "title": "Entropy as Cultural Relay: From Heat Engines to Information",
+      "section": 24,
+      "level": 1
+    },
+    {
+      "title": "The Argument for Celibacy: Preserving the Boundaries of the Subject",
+      "section": 25,
+      "level": 1
+    },
+    {
+      "title": "Chapter Five - FROM HYPHEN TO SPLICE: CYBERNETIC SYNTAX IN LIMBO",
+      "section": 26,
+      "level": 0
+    },
+    {
+      "title": "Chapter Six - THE SECOND WAVE OF CYBERNETICS: FROM REFLEXIVITY TO SELF-ORGANIZATION",
+      "section": 27,
+      "level": 0
+    },
+    {
+      "title": "Reflexivity Revisited",
+      "section": 28,
+      "level": 1
+    },
+    {
+      "title": "Reconfiguring the Liberal Humanist Subject",
+      "section": 29,
+      "level": 1
+    },
+    {
+      "title": "Autopoiesis and Evolution",
+      "section": 30,
+      "level": 1
+    },
+    {
+      "title": "The Voice of the Other: Varela and Embodiment",
+      "section": 31,
+      "level": 1
+    },
+    {
+      "title": "Chapter Seven - TURNING REALITY INSIDE OUT AND RIGHT SIDE OUT: BOUNDARY WORK ...",
+      "section": 32,
+      "level": 0
+    },
+    {
+      "title": "The Schizoid Woman and the Dark-Haired Girl",
+      "section": 33,
+      "level": 1
+    },
+    {
+      "title": "Capitalism and the Schizoid Android",
+      "section": 34,
+      "level": 1
+    },
+    {
+      "title": "The Schizoid Woman (De)Constructs Male Subjectivity",
+      "section": 35,
+      "level": 1
+    },
+    {
+      "title": "Wasting Time in the Tomb World",
+      "section": 36,
+      "level": 1
+    },
+    {
+      "title": "Turning Right-Side Out in Dr. Bloodmoney",
+      "section": 37,
+      "level": 1
+    },
+    {
+      "title": "Dark-Haired Girl/Schizoid Woman as Facade: The Reality Underneath",
+      "section": 38,
+      "level": 1
+    },
+    {
+      "title": "Punctuating the Endless Regress of Reflexivity",
+      "section": 39,
+      "level": 1
+    },
+    {
+      "title": "Chapter Eight - THE MATERIALITY OF INFORMATICS",
+      "section": 40,
+      "level": 0
+    },
+    {
+      "title": "Foucault’s Archaeology and the Erasure of Embodiment",
+      "section": 41,
+      "level": 1
+    },
+    {
+      "title": "Incorporating Practices and Embodied Knowledge",
+      "section": 42,
+      "level": 1
+    },
+    {
+      "title": "Audiotape and Its Cultural Niche",
+      "section": 43,
+      "level": 1
+    },
+    {
+      "title": "Chapter Nine - NARRATIVES OF ARTIFICIAL LIFE",
+      "section": 44,
+      "level": 0
+    },
+    {
+      "title": "The Nature and Artifice of Artificial Life",
+      "section": 45,
+      "level": 1
+    },
+    {
+      "title": "Positioning the Field: The Politics of Artificial Life",
+      "section": 46,
+      "level": 1
+    },
+    {
+      "title": "Reconfiguring the Body of Information",
+      "section": 47,
+      "level": 1
+    },
+    {
+      "title": "The Computational Universe",
+      "section": 48,
+      "level": 1
+    },
+    {
+      "title": "Murmurs from the Body",
+      "section": 49,
+      "level": 1
+    },
+    {
+      "title": "Chapter Ten - THE SEMIOTICS OF VIRTUALITY : MAPPING THE POSTHUMAN",
+      "section": 50,
+      "level": 0
+    },
+    {
+      "title": "The Mutating Bodies of Blood Music",
+      "section": 51,
+      "level": 1
+    },
+    {
+      "title": "The Hyperreality of Terminal Games",
+      "section": 52,
+      "level": 1
+    },
+    {
+      "title": "Material Signifiers in Galatea 2.2",
+      "section": 53,
+      "level": 1
+    },
+    {
+      "title": "Informational Infection and Hygiene in Snow Crash",
+      "section": 54,
+      "level": 1
+    },
+    {
+      "title": "Inscribing and Incorporating: The Future (of the) Posthuman",
+      "section": 55,
+      "level": 1
+    },
+    {
+      "title": "Chapter Eleven - CONCLUSION: WHAT DOES IT MEAN TO BE POSTHUMAN ?",
+      "section": 56,
+      "level": 0
+    },
+    {
+      "title": "Notes",
+      "section": null,
+      "level": 0
+    },
+    {
+      "title": "Index",
+      "section": null,
+      "level": 0
+    }
+  ],
   "pages": [
     {
       "locator": 1,

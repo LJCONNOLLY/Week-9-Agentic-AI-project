@@ -72,6 +72,45 @@ export default function BookProfile() {
         </p>
       </div>
 
+      {/* Table of Contents */}
+      {book?.toc && book.toc.length > 0 && (
+        <div className="card" style={{ marginBottom: '1.5rem' }}>
+          <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Table of Contents</h2>
+          <nav>
+            {book.toc.filter(e => e.section).map((entry, i) => {
+              // Find the index in our (front-matter-skipped) pages array
+              const targetIdx = pages.findIndex(p => p.locator === entry.section);
+              return (
+                <div key={i} style={{
+                  paddingLeft: `${entry.level * 1.5}rem`,
+                  marginBottom: '0.5rem',
+                }}>
+                  <button
+                    onClick={() => { if (targetIdx >= 0) setPage(targetIdx); }}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      padding: 0,
+                      fontFamily: 'var(--font-heading)',
+                      fontSize: '1.1rem',
+                      color: targetIdx >= 0 ? '#2d5a2d' : 'var(--text-muted)',
+                      cursor: targetIdx >= 0 ? 'pointer' : 'default',
+                      textDecoration: targetIdx >= 0 ? 'underline' : 'none',
+                      textDecorationColor: '#9aad8a',
+                      textUnderlineOffset: '3px',
+                      textAlign: 'left',
+                    }}
+                    disabled={targetIdx < 0}
+                  >
+                    {entry.title}
+                  </button>
+                </div>
+              );
+            })}
+          </nav>
+        </div>
+      )}
+
       {/* Full Text */}
       <div className="card" style={{ marginBottom: '1.5rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
