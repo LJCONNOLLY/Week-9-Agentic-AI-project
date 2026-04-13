@@ -147,7 +147,7 @@ export default function BookProfile() {
                 hyphens: 'auto',
                 WebkitHyphens: 'auto',
               }}>
-                <FormattedText text={currentPage.text} />
+                <FormattedText text={currentPage.text} pages={pages} onNavigate={setPage} />
               </div>
             </div>
           </div>
@@ -267,7 +267,7 @@ function isHeadingLine(line) {
   return false;
 }
 
-function FormattedText({ text }) {
+function FormattedText({ text, pages, onNavigate }) {
   const hasDoubleNewlines = /\n\s*\n/.test(text);
 
   let paragraphs;
@@ -340,17 +340,38 @@ function FormattedText({ text }) {
         if (!trimmed) return null;
 
         if (isHeadingLine(trimmed)) {
+          const handleClick = () => {
+            if (!pages || !onNavigate) return;
+            // Search all pages for one containing this heading text
+            const searchText = trimmed.replace(/^\d+\s+/, '').toLowerCase();
+            const targetIdx = pages.findIndex((p, pi) => {
+              if (pi === 0) return false; // skip current-ish pages
+              const pageText = p.text.toLowerCase();
+              return pageText.includes(searchText) ||
+                pageText.startsWith(searchText.slice(0, 30));
+            });
+            if (targetIdx > 0) onNavigate(targetIdx);
+          };
+
+          const isClickable = pages && onNavigate;
+
           return (
-            <h3 key={i} style={{
-              fontFamily: 'var(--font-heading)',
-              fontSize: '28px',
-              fontWeight: 700,
-              marginTop: i === 0 ? 0 : '2.5rem',
-              marginBottom: '1rem',
-              lineHeight: 1.3,
-              textAlign: 'center',
-              color: '#1a1a1a',
-            }}>
+            <h3 key={i}
+              onClick={isClickable ? handleClick : undefined}
+              style={{
+                fontFamily: 'var(--font-heading)',
+                fontSize: '28px',
+                fontWeight: 700,
+                marginTop: i === 0 ? 0 : '2.5rem',
+                marginBottom: '1rem',
+                lineHeight: 1.3,
+                textAlign: 'center',
+                color: isClickable ? '#2d5a2d' : '#1a1a1a',
+                cursor: isClickable ? 'pointer' : 'default',
+                textDecoration: isClickable ? 'underline' : 'none',
+                textDecorationColor: isClickable ? '#9aad8a' : 'transparent',
+                textUnderlineOffset: '4px',
+              }}>
               {trimmed}
             </h3>
           );
