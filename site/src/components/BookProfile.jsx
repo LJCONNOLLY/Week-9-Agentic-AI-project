@@ -204,7 +204,7 @@ export default function BookProfile() {
               <div style={{
                 maxWidth: '920px',
                 width: '100%',
-                padding: '48px 20px',
+                padding: '48px 1px',
                 fontSize: '21px',
                 lineHeight: '1.75',
                 color: '#1a1a1a',
