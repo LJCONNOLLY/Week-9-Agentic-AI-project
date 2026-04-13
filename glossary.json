@@ -1,19 +1,199 @@
 {
   "terms": [
-    "text",
-    "technology",
-    "discourse",
-    "remediation",
-    "misogynoir",
-    "design justice",
-    "coding literacy",
-    "episteme",
-    "cultural analytics",
-    "algorithmic oppression",
-    "digital blackness",
-    "posthuman",
-    "actor-network",
-    "situated knowledge",
-    "encoding/decoding"
+    {
+      "id": "text",
+      "term": "Text",
+      "definition": "Any object that carries meaning and can be 'read' — not just written words, but images, interfaces, data, bodies, and systems. Scholars in Texts and Technology argue about what counts as a text and who gets to interpret it."
+    },
+    {
+      "id": "technology",
+      "term": "Technology",
+      "definition": "Tools, systems, and infrastructures that mediate how humans act in the world. Scholars in this field push back on the idea that technology is neutral, arguing it encodes the values and biases of whoever built it."
+    },
+    {
+      "id": "discourse",
+      "term": "Discourse",
+      "definition": "The language, ideas, and ways of talking about something that shape what can be said, thought, or known within a given context. From Foucault — discourse doesn't just describe reality, it produces it."
+    },
+    {
+      "id": "remediation",
+      "term": "Remediation",
+      "definition": "The way a new medium absorbs, transforms, and references older media. A website remediates a newspaper; a podcast remediates radio. From Bolter and Grusin."
+    },
+    {
+      "id": "misogynoir",
+      "term": "Misogynoir",
+      "definition": "The specific intersection of anti-Black racism and misogyny directed at Black women, in media, technology, and culture. Coined by Moya Bailey."
+    },
+    {
+      "id": "design-justice",
+      "term": "Design Justice",
+      "definition": "A framework arguing that design should center the needs of marginalized communities and be led by those communities rather than imposed on them. From Sasha Costanza-Chock."
+    },
+    {
+      "id": "coding-literacy",
+      "term": "Coding Literacy",
+      "definition": "The ability to read, write, and critically evaluate code — often framed as a form of literacy with political stakes about who gets access and whose knowledge counts."
+    },
+    {
+      "id": "episteme",
+      "term": "Episteme",
+      "definition": "A Foucauldian term for the underlying structure of knowledge in a given historical period — the invisible rules that determine what counts as truth or valid knowledge."
+    },
+    {
+      "id": "cultural-analytics",
+      "term": "Cultural Analytics",
+      "definition": "The use of computational methods (data analysis, visualization, machine learning) to study culture and humanities at large scale. Associated with Lev Manovich."
+    },
+    {
+      "id": "procedural-rhetoric",
+      "term": "Procedural Rhetoric",
+      "definition": "The way systems and processes (especially games and software) make arguments through rules and mechanics, not just words or images. From Ian Bogost."
+    },
+    {
+      "id": "surveillance",
+      "term": "Surveillance",
+      "definition": "The systematic watching, tracking, and recording of people and populations, often by institutions with power. Scholars examine how surveillance is not neutral but targets marginalized groups disproportionately."
+    },
+    {
+      "id": "classification",
+      "term": "Classification",
+      "definition": "The act of sorting people, objects, or data into categories. Classification systems embed social values and hierarchies — who gets classified as what has real consequences for how they are treated."
+    },
+    {
+      "id": "categorization",
+      "term": "Categorization",
+      "definition": "The broader cognitive and social process of grouping things together. Scholars examine how categories that seem natural (race, gender, ability) are actually constructed and enforced."
+    },
+    {
+      "id": "infrastructure",
+      "term": "Infrastructure",
+      "definition": "The underlying systems, standards, and protocols that make other things work — roads, databases, classification schemes, legal frameworks. Infrastructure becomes political when we ask who it was built for and who it excludes."
+    },
+    {
+      "id": "race",
+      "term": "Race",
+      "definition": "A socially constructed system of categorization that assigns meaning and hierarchy to physical and cultural differences. In this field, race is understood as produced and reproduced by data systems, algorithms, and design — not just social attitudes."
+    },
+    {
+      "id": "identity",
+      "term": "Identity",
+      "definition": "The ways individuals and groups understand and present themselves, and the ways institutions categorize them. Scholars examine the tension between self-identified identity and identity as assigned by systems and databases."
+    },
+    {
+      "id": "biopolitics",
+      "term": "Biopolitics",
+      "definition": "From Foucault — the way modern states govern populations through the management of life itself: health, reproduction, risk, death. Data systems are a key site of biopolitical power."
+    },
+    {
+      "id": "datafication",
+      "term": "Datafication",
+      "definition": "The process of translating social life into quantifiable data — turning bodies, behaviors, relationships, and identities into data points that can be collected, analyzed, and acted upon."
+    },
+    {
+      "id": "algorithms",
+      "term": "Algorithmics / Algorithms",
+      "definition": "The rules and procedures that automated systems use to sort, rank, recommend, and decide. Scholars examine how algorithms encode bias and produce discriminatory outcomes at scale."
+    },
+    {
+      "id": "visibility",
+      "term": "Visibility / Invisibility",
+      "definition": "Who and what gets seen, counted, and represented in data systems and public life — and who is rendered invisible, uncounted, or misrepresented. Both visibility and invisibility can be forms of harm."
+    },
+    {
+      "id": "embodiment",
+      "term": "Embodiment",
+      "definition": "The idea that knowledge, experience, and identity are rooted in having a particular body in a particular social context. Feminist scholars use embodiment to push back against claims of disembodied objectivity in data and technology."
+    },
+    {
+      "id": "intersectionality",
+      "term": "Intersectionality",
+      "definition": "Coined by Kimberlé Crenshaw — the framework for understanding how overlapping systems of oppression (race, gender, class, ability, sexuality) interact to produce distinct forms of discrimination that cannot be understood by looking at any one axis alone."
+    },
+    {
+      "id": "citizenship",
+      "term": "Citizenship",
+      "definition": "Legal and social membership in a political community, with associated rights and exclusions. Scholars examine how data systems and borders produce and police citizenship status."
+    },
+    {
+      "id": "borders",
+      "term": "Borders / Bordering",
+      "definition": "The practices and technologies that mark and enforce distinctions between inside and outside, citizen and non-citizen, legible and illegible. Bordering is increasingly digital — databases, biometrics, and algorithms extend the border everywhere."
+    },
+    {
+      "id": "health",
+      "term": "Health",
+      "definition": "Not just a biological state but a political one — defined, measured, and managed by institutions. Health data is a key site where race, gender, and class shape who is monitored, treated, or neglected."
+    },
+    {
+      "id": "risk",
+      "term": "Risk",
+      "definition": "A probabilistic calculation used by institutions to predict and manage future harm. Risk scoring systems (in policing, insurance, welfare, healthcare) translate historical inequality into future discrimination."
+    },
+    {
+      "id": "normativity",
+      "term": "Normativity",
+      "definition": "The implicit standards that define what counts as normal — in bodies, behaviors, identities, and data. Systems built around norms exclude and penalize those who fall outside them."
+    },
+    {
+      "id": "erasure",
+      "term": "Erasure",
+      "definition": "The disappearance or deletion of people, histories, and experiences from records, archives, and data systems — often not accidental but the result of whose knowledge and whose lives are deemed worth preserving."
+    },
+    {
+      "id": "transparency",
+      "term": "Transparency / Opacity",
+      "definition": "Transparency is the demand that systems and institutions be legible and accountable. Opacity refers to the strategic illegibility of systems — but also, following Glissant, the right of marginalized people to resist being fully known and classified."
+    },
+    {
+      "id": "accountability",
+      "term": "Accountability",
+      "definition": "The mechanisms by which institutions and systems can be questioned, challenged, and held responsible for their effects — a key demand in critical data studies and algorithmic justice movements."
+    },
+    {
+      "id": "rights",
+      "term": "Rights",
+      "definition": "Legal and political entitlements attached to persons or groups. Scholars ask how rights frameworks include or exclude based on data, citizenship status, and bodily legibility."
+    },
+    {
+      "id": "feminist",
+      "term": "Feminist",
+      "definition": "As a theoretical framework: a commitment to examining how gender and power shape knowledge production, design, and technology — and to centering those most harmed by existing systems."
+    },
+    {
+      "id": "queer",
+      "term": "Queer",
+      "definition": "Both an identity category and a critical framework that challenges normative assumptions about sexuality, gender, and the body — including the binary logics embedded in data systems and classification schemes."
+    },
+    {
+      "id": "trans",
+      "term": "Trans",
+      "definition": "Referring to people whose gender identity differs from the one assigned at birth. Trans experience is a key site for examining how data systems, legal categories, and medical institutions enforce binary gender."
+    },
+    {
+      "id": "disability",
+      "term": "Disability",
+      "definition": "Both a physical or cognitive difference and a social and political category produced by environments and systems that fail to accommodate that difference. Crip theory examines how normativity and design exclude disabled people."
+    },
+    {
+      "id": "labor",
+      "term": "Labor",
+      "definition": "The work — often invisible, often uncompensated — that produces data, trains algorithms, and maintains digital infrastructure. Scholars examine whose labor powers the digital economy and who benefits."
+    },
+    {
+      "id": "design",
+      "term": "Design",
+      "definition": "The intentional shaping of objects, systems, and environments. Design Justice scholars argue that design always reflects values and that centering marginalized communities in the design process produces more just outcomes."
+    },
+    {
+      "id": "visualization",
+      "term": "Visualization",
+      "definition": "The practice of rendering data visually — charts, maps, diagrams. Scholars examine how visualizations make rhetorical arguments, produce authority, and can erase or distort the people behind the numbers."
+    },
+    {
+      "id": "rhetoric",
+      "term": "Rhetoric",
+      "definition": "The study of how communication persuades, moves, and acts on audiences. In this field, rhetoric is expanded beyond speech and writing to include data, code, design, and visual systems as rhetorical forms."
+    }
   ]
 }
