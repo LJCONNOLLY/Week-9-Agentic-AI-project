@@ -89,7 +89,7 @@ export default function BookProfile() {
             {argsLoading ? 'Generating...' : (args ? 'Regenerate' : 'Generate with AI')}
           </button>
         </div>
-        {argsError && <p style={{ color: '#c0392b', fontSize: '0.85rem' }}>{argsError}</p>}
+        {argsError && !argsError.includes('API key') && <p style={{ color: '#c0392b', fontSize: '0.85rem' }}>{argsError}</p>}
         {args ? (
           <ul style={{ listStyle: 'none', padding: 0 }}>
             {args.map((arg, i) => (
@@ -100,8 +100,11 @@ export default function BookProfile() {
             ))}
           </ul>
         ) : (
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem' }}>
+          <p style={{ color: 'var(--text-muted)', fontSize: '1rem' }}>
             Click "Generate with AI" to produce key arguments using Claude.
+            {!getApiKey() && <span style={{ display: 'block', marginTop: '0.25rem' }}>
+              (Requires an Anthropic API key — set it in Settings)
+            </span>}
           </p>
         )}
       </div>
@@ -199,7 +202,6 @@ export default function BookProfile() {
               justifyContent: 'center',
             }}>
               <div style={{
-                maxWidth: '860px',
                 width: '100%',
                 padding: '48px 28px',
                 fontSize: '21px',
