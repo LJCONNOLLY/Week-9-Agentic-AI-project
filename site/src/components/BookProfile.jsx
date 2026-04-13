@@ -36,10 +36,7 @@ export default function BookProfile() {
   if (!meta) return <div className="loading">Loading...</div>;
 
   const allPages = book?.pages || [];
-
-  // Skip front matter: find first page with actual prose content
-  const firstContentIndex = allPages.findIndex(p => !isFrontMatter(p.text));
-  const pages = firstContentIndex > 0 ? allPages.slice(firstContentIndex) : allPages;
+  const pages = allPages;
   const currentPage = pages[page];
 
   const filteredPages = localSearch
@@ -78,7 +75,6 @@ export default function BookProfile() {
           <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Table of Contents</h2>
           <nav>
             {book.toc.filter(e => e.section).map((entry, i) => {
-              // Find the index in our (front-matter-skipped) pages array
               const targetIdx = pages.findIndex(p => p.locator === entry.section);
               return (
                 <div key={i} style={{
