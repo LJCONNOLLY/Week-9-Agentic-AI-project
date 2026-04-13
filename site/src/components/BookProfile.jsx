@@ -342,15 +342,22 @@ function FormattedText({ text, pages, onNavigate }) {
         if (isHeadingLine(trimmed)) {
           const handleClick = () => {
             if (!pages || !onNavigate) return;
-            // Search all pages for one containing this heading text
-            const searchText = trimmed.replace(/^\d+\s+/, '').toLowerCase();
-            const targetIdx = pages.findIndex((p, pi) => {
-              if (pi === 0) return false; // skip current-ish pages
-              const pageText = p.text.toLowerCase();
-              return pageText.includes(searchText) ||
-                pageText.startsWith(searchText.slice(0, 30));
-            });
-            if (targetIdx > 0) onNavigate(targetIdx);
+            // Strip leading number from heading like "1  Women Tweet..."
+            const searchText = trimmed.replace(/^\d+\s+/, '').trim().toLowerCase();
+            // Search all pages for one where the text starts with or contains this heading
+            for (let pi = 0; pi < pages.length; pi++) {
+              const pageText = pages[pi].text.toLowerCase();
+              // Check if this page's text contains a substantial match
+              if (pageText.includes(searchText)) {
+                onNavigate(pi);
+                return;
+              }
+              // Also try matching just the first 40 chars of the heading
+              if (searchText.length > 20 && pageText.includes(searchText.slice(0, 40))) {
+                onNavigate(pi);
+                return;
+              }
+            }
           };
 
           const isClickable = pages && onNavigate;
