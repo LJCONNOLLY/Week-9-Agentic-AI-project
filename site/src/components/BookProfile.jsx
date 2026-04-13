@@ -191,7 +191,7 @@ export default function BookProfile() {
               </button>
             </div>
             <div style={{
-              maxHeight: '700px',
+              maxHeight: '800px',
               overflowY: 'auto',
               background: 'var(--cream)',
               borderRadius: '6px',
@@ -201,9 +201,9 @@ export default function BookProfile() {
               <div style={{
                 maxWidth: '680px',
                 width: '100%',
-                padding: '24px',
-                fontSize: '17px',
-                lineHeight: '1.8',
+                padding: '32px',
+                fontSize: '20px',
+                lineHeight: '1.9',
                 color: 'var(--text-primary)',
               }}>
                 <FormattedText text={currentPage.text} />
@@ -270,13 +270,31 @@ function isFrontMatter(text) {
 }
 
 function FormattedText({ text }) {
-  // Split on double newlines to create paragraphs
-  const paragraphs = text.split(/\n\s*\n/).filter(p => p.trim());
+  // Try double newlines first; if that gives only 1 block, split on single newlines
+  let paragraphs = text.split(/\n\s*\n/).filter(p => p.trim());
+
+  // If the text is one big block, try splitting on single newlines
+  if (paragraphs.length <= 1) {
+    paragraphs = text.split(/\n/).filter(p => p.trim());
+  }
+
+  // If still one block (no newlines at all), split on sentence boundaries for long text
+  if (paragraphs.length <= 1 && text.length > 500) {
+    paragraphs = text.match(/[^.!?]+[.!?]+\s*/g) || [text];
+    // Group sentences into ~3-sentence paragraphs
+    const grouped = [];
+    for (let i = 0; i < paragraphs.length; i += 3) {
+      grouped.push(paragraphs.slice(i, i + 3).join(''));
+    }
+    paragraphs = grouped;
+  }
 
   return (
     <>
       {paragraphs.map((para, i) => {
         const trimmed = para.trim();
+        if (!trimmed) return null;
+
         // Detect footnote/list lines: starts with number + space
         const isFootnote = /^\d{1,3}\s+[A-Z]/.test(trimmed);
 
@@ -295,7 +313,7 @@ function FormattedText({ text }) {
         }
 
         return (
-          <p key={i} style={{ marginBottom: '1rem' }}>
+          <p key={i} style={{ marginBottom: '1.2rem' }}>
             {trimmed}
           </p>
         );
