@@ -94,7 +94,7 @@ export default function ConversationMap() {
       <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
         <div style={{ flex: 1, minWidth: '500px' }}>
           <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
-            <svg ref={svgRef} style={{ width: '100%', height: '800px', display: 'block' }} />
+            <svg ref={svgRef} style={{ width: '100%', height: '1000px', display: 'block' }} />
           </div>
           <div style={{ display: 'flex', gap: '2rem', marginTop: '1rem', fontSize: '1rem', color: 'var(--text-muted)', flexWrap: 'wrap' }}>
             <span><span style={{ display: 'inline-block', width: 16, height: 16, borderRadius: '50%', background: '#c9a84c', marginRight: 6, verticalAlign: 'middle' }} />Book in corpus</span>
@@ -265,7 +265,7 @@ function renderGraph(svgEl, nodes, links, onSelect) {
   svg.selectAll('*').remove();
 
   const width = svgEl.clientWidth || 1000;
-  const height = 800;
+  const height = 1000;
 
   const g = svg.append('g');
 
@@ -290,12 +290,12 @@ function renderGraph(svgEl, nodes, links, onSelect) {
     .style('z-index', 9999);
 
   const simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(120))
-    .force('charge', d3.forceManyBody().strength(-600))
+    .force('link', d3.forceLink(links).id(d => d.id).distance(70))
+    .force('charge', d3.forceManyBody().strength(-300))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collide', d3.forceCollide().radius(d => d.radius + 10))
-    .force('x', d3.forceX(width / 2).strength(0.03))
-    .force('y', d3.forceY(height / 2).strength(0.03));
+    .force('collide', d3.forceCollide().radius(d => d.radius + 45))
+    .force('x', d3.forceX(width / 2).strength(0.05))
+    .force('y', d3.forceY(height / 2).strength(0.05));
 
   const link = g.append('g')
     .selectAll('line')
@@ -369,12 +369,12 @@ function renderGraph(svgEl, nodes, links, onSelect) {
       const maxLen = d.type === 'book' ? 22 : 20;
       return d.label.length > maxLen ? d.label.slice(0, maxLen) + '...' : d.label;
     })
-    .attr('font-size', d => d.type === 'book' ? '13px' : '12px')
-    .attr('font-weight', d => d.isHub ? 700 : d.type === 'book' ? 500 : 400)
+    .attr('font-size', d => d.type === 'book' ? '24px' : '22px')
+    .attr('font-weight', d => d.isHub ? 700 : d.type === 'book' ? 600 : 400)
     .attr('font-family', 'Inter, sans-serif')
     .attr('fill', '#2d3a2d')
     .attr('text-anchor', 'middle')
-    .attr('dy', d => d.radius + 14)
+    .attr('dy', d => d.radius + 20)
     .attr('pointer-events', 'none');
 
   simulation.on('tick', () => {
