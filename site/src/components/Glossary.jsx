@@ -120,7 +120,7 @@ export default function Glossary() {
                         <span className="tag">{p.locatorType} {p.locator}</span>
                       </div>
                       <p style={{ fontSize: '1rem', marginTop: '0.5rem', fontStyle: 'italic', color: 'var(--text-secondary)' }}>
-                        "{p.excerpt.slice(0, 400)}{p.excerpt.length > 400 ? '...' : ''}"
+                        "{highlightTerm(p.excerpt.slice(0, 400), selectedTerm.term)}{p.excerpt.length > 400 ? '...' : ''}"
                       </p>
                     </div>
                   ))}
@@ -135,5 +135,19 @@ export default function Glossary() {
         </div>
       </div>
     </div>
+  );
+}
+
+function highlightTerm(text, term) {
+  if (!term) return text;
+  // Handle "Visibility / Invisibility" style terms — highlight all parts
+  const parts = term.split(/\s*\/\s*/);
+  const pattern = parts.map(p => p.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+  const regex = new RegExp(`(${pattern})`, 'gi');
+  const segments = text.split(regex);
+  return segments.map((seg, i) =>
+    regex.test(seg)
+      ? <mark key={i} style={{ background: '#fff176', padding: '0.05rem 0.15rem', borderRadius: '2px' }}>{seg}</mark>
+      : seg
   );
 }
