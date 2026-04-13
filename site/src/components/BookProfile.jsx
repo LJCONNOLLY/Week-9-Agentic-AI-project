@@ -294,11 +294,17 @@ const HEADING_RE = /^(Acknowledgments?|Contents|Table of Contents|Introduction|C
 
 function isHeadingLine(line) {
   const t = line.trim();
-  if (!t || t.length > 150) return false;
-  if (t.endsWith('.') || t.endsWith(',')) return false;
-  if (/^\d+\s+[A-Z]/.test(t) && t.length < 120) return true;
-  if (HEADING_RE.test(t)) return true;
-  if (t === t.toUpperCase() && /[A-Z]/.test(t) && t.length < 80 && t.length > 2) return true;
+  if (!t || t.length > 100) return false;
+  if (t.endsWith('.') || t.endsWith(',') || t.endsWith(';')) return false;
+  // Must be a short standalone line, not a sentence
+  const wordCount = t.split(/\s+/).length;
+  if (wordCount > 12) return false;
+  // Numbered chapter heading like "5 From #Ferguson to..."
+  if (/^\d+\s+[A-Z]/.test(t) && t.length < 80) return true;
+  // Known heading words — but only if the line is short (not a sentence starting with the word)
+  if (HEADING_RE.test(t) && wordCount <= 8) return true;
+  // ALL CAPS short lines
+  if (t === t.toUpperCase() && /[A-Z]/.test(t) && t.length < 60 && t.length > 2 && wordCount <= 6) return true;
   return false;
 }
 
