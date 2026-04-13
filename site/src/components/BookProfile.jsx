@@ -36,7 +36,11 @@ export default function BookProfile() {
   if (!meta) return <div className="loading">Loading...</div>;
 
   const allPages = book?.pages || [];
-  const pages = allPages;
+
+  // Find the first section that starts with Introduction or a numbered chapter
+  const INTRO_RE = /^(Introduction|Chapter\s+1|Part\s+(One|1|I)\b|1\s+[A-Z])/im;
+  const introIdx = allPages.findIndex(p => INTRO_RE.test(p.text.trim().slice(0, 200)));
+  const pages = introIdx > 0 ? allPages.slice(introIdx) : allPages;
   const currentPage = pages[page];
 
   const filteredPages = localSearch
@@ -74,7 +78,7 @@ export default function BookProfile() {
         <div className="card" style={{ marginBottom: '1.5rem' }}>
           <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Table of Contents</h2>
           <nav>
-            {book.toc.filter(e => e.section).map((entry, i) => {
+            {book.toc.filter(e => e.section && pages.some(p => p.locator === e.section)).map((entry, i) => {
               const targetIdx = pages.findIndex(p => p.locator === entry.section);
               return (
                 <div key={i} style={{
