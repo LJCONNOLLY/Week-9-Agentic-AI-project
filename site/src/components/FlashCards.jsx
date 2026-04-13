@@ -248,7 +248,7 @@ export default function FlashCards() {
               {data?.coinages && data.coinages.length > 0 && (
                 <div style={{ borderTop: '2px solid #ecdfa8', paddingTop: '1rem' }}>
                   <h4 style={{
-                    fontSize: '26px', color: '#907040',
+                    fontSize: '32px', color: '#907040',
                     marginBottom: '0.5rem', fontWeight: 700,
                     textTransform: 'uppercase', letterSpacing: '0.05em',
                   }}>
@@ -257,7 +257,7 @@ export default function FlashCards() {
                   <ul style={{ listStyle: 'none', padding: 0 }}>
                     {data.coinages.map((c, i) => (
                       <li key={i} style={{
-                        fontSize: '24px', color: '#555',
+                        fontSize: '27px', color: '#555',
                         marginBottom: '0.4rem',
                         paddingLeft: '0.75rem',
                         borderLeft: '3px solid #ecdfa8',
