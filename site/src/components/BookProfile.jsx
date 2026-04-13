@@ -314,16 +314,23 @@ function FormattedText({ text, pages, onNavigate }) {
   let paragraphs;
 
   if (hasDoubleNewlines) {
-    // Split on double newlines, but check for headings joined to body
+    // Split on double newlines, then scan each block for headings
     paragraphs = [];
     for (const block of text.split(/\n\s*\n/)) {
       const lines = block.split(/\n/).map(l => l.trim()).filter(Boolean);
-      if (lines.length > 1 && isHeadingLine(lines[0])) {
-        paragraphs.push(lines[0]);
-        paragraphs.push(lines.slice(1).join(' '));
-      } else {
-        paragraphs.push(lines.join(' '));
+      let currentChunk = [];
+      for (const line of lines) {
+        if (isHeadingLine(line)) {
+          if (currentChunk.length > 0) {
+            paragraphs.push(currentChunk.join(' '));
+            currentChunk = [];
+          }
+          paragraphs.push(line);
+        } else {
+          currentChunk.push(line);
+        }
       }
+      if (currentChunk.length > 0) paragraphs.push(currentChunk.join(' '));
     }
     paragraphs = paragraphs.filter(Boolean);
   } else {
