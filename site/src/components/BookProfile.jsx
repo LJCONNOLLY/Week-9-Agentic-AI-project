@@ -199,10 +199,10 @@ export default function BookProfile() {
               justifyContent: 'center',
             }}>
               <div style={{
-                maxWidth: '680px',
+                maxWidth: '860px',
                 width: '100%',
-                padding: '48px 40px',
-                fontSize: '18px',
+                padding: '48px 28px',
+                fontSize: '21px',
                 lineHeight: '1.75',
                 color: '#1a1a1a',
                 fontFamily: 'Georgia, "Times New Roman", serif',
