@@ -7,6 +7,7 @@ const NAV_ITEMS = [
   { path: '/glossary', label: 'Concept Glossary', icon: '\u{1F4D6}' },
   { path: '/map', label: 'Conversation Map', icon: '\u{1F310}' },
   { path: '/flashcards', label: 'Flash Cards', icon: '\u{1F0CF}' },
+  { path: '/threads', label: 'Thematic Threads', icon: '\u{1F9F5}' },
   { path: '/frameworks', label: 'Framework Tracker', icon: '\u{1F9E9}' },
   { path: '/definitions', label: 'Texts & Technology', icon: '\u{2696}' },
 ];
