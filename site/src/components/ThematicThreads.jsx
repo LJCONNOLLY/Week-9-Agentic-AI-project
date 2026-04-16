@@ -2,6 +2,33 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { loadIndex } from '../utils/data';
 
+const CURATED_TECHNOLOGY = [
+  { bookId: 'vee-coding-literacy-how-computer-programming', excerpt: 'To push beyond thinking of technology in only instrumental ways, Heidegger claims we must see that \'the essence of technology is by no means anything technological.\'' },
+  { bookId: 'vee-coding-literacy-how-computer-programming', excerpt: 'the essence of technology is in its \'way of revealing.\'' },
+  { bookId: 'jr-distributed-blackness-african-american-c', excerpt: 'Dinerstein (2006) argues that \'technology is the American mythos\'' },
+  { bookId: 'jr-distributed-blackness-african-american-c', excerpt: 'technology as an abstract concept functions as a white mythology and that technology is the unacknowledged source of European and Euro-American superiority within modernity' },
+  { bookId: 'benjamin-race-after-technology', excerpt: 'technology is society, and society cannot be understood or represented without its technological tools.' },
+  { bookId: 'costanzachock-design-justice-community-led-practices-t', excerpt: 'Technology is always a form of social knowledge, practices and products.' },
+  { bookId: 'gold-debates-in-the-digital-humanities-2023', excerpt: 'Every piece of technology is an expression of cultural and social frameworks for understanding and engaging with the world.' },
+  { bookId: 'steele-digital-black-feminism-critical-cultural', excerpt: 'Technology is central to the American experiment.' },
+  { bookId: 'steele-digital-black-feminism-critical-cultural', excerpt: 'Black women have always engaged with technology; it is the definition of technology and technical expertise that shifted.' },
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: 'the new technology is not merely used to convey the critique: in fact, it brought the critique into existence.' },
+  { bookId: 'mullaney-your-computer-is-on-fire', excerpt: 'Philosophers have long bristled at the fact that technology is often understood only instrumentally\u2014by its use value.' },
+  { bookId: 'benjamin-race-after-technology', excerpt: 'technology is often depicted as neutral, or as a blank slate developed outside political and social contexts' },
+  { bookId: 'benjamin-race-after-technology', excerpt: 'the view that \'technology is a neutral tool\' ignores how race also functions like a tool' },
+  { bookId: 'costanzachock-design-justice-community-led-practices-t', excerpt: 'technology is primarily used to extend capitalist patriarchal modernity and the aims of the market and/or the state' },
+  { bookId: 'steele-digital-black-feminism-critical-cultural', excerpt: 'Western technology was created for and alongside systemic oppression' },
+  { bookId: 'steele-digital-black-feminism-critical-cultural', excerpt: 'Black women\u2019s relationship to labor and technology is a story of using tools and technologies crafted to oppress as mechanisms of resistance.' },
+  { bookId: 'steele-digital-black-feminism-critical-cultural', excerpt: 'The emergent definition of technology systematically removed Black women\u2019s labor and communication patterns.' },
+  { bookId: 'steele-digital-black-feminism-critical-cultural', excerpt: 'those in power defined technology' },
+  { bookId: 'mullaney-your-computer-is-on-fire', excerpt: 'Technology Is People\u2019s Labor' },
+  { bookId: 'mullaney-your-computer-is-on-fire', excerpt: 'High technology is often a screen for propping up idealistic progress narratives while simultaneously torpedoing meaningful social reform' },
+  { bookId: 'losh-bodies-of-information', excerpt: 'As an isolated object, technology is of little interest.' },
+  { bookId: 'gold-debates-in-the-digital-humanities-2023', excerpt: 'the question of race and technology is not just about what race is but what relations and questions engender race.' },
+  { bookId: 'benjamin-race-after-technology', excerpt: 'technology is being used to expand the carceral state, allowing policing and imprisonment to stand in for civil society while seemingly neutral algorithms justify that shift' },
+  { bookId: 'costanzachock-design-justice-community-led-practices-t', excerpt: 'Community needs and priorities must drive technology design and development, and technology is most useful when priorities are set by those who are not technologists.' },
+];
+
 const THREADS = [
   {
     id: 'text',
@@ -12,6 +39,7 @@ const THREADS = [
     id: 'technology',
     title: 'What counts as "technology"?',
     terms: ['technology'],
+    curated: CURATED_TECHNOLOGY,
   },
   {
     id: 'race-algorithms',
@@ -62,59 +90,80 @@ export default function ThematicThreads() {
 
   const selectedThread = THREADS.find(t => t.id === selectedId);
 
+  const bookLookup = {};
+  for (const book of index.books) {
+    bookLookup[book.id] = book;
+  }
+
   // Collect passages for the selected thread
   let passages = [];
   if (selectedThread) {
-    const bookPassages = {}; // bookId -> { book, passages[] }
-
-    for (const book of index.books) {
-      const defs = book.definitions || {};
-      const matching = [];
-
-      for (const term of selectedThread.terms) {
-        if (defs[term]) {
-          for (const d of defs[term]) {
-            matching.push({ ...d, matchedTerm: term });
+    if (selectedThread.curated) {
+      // Use curated quotes — group by bookId
+      const groups = {};
+      for (const q of selectedThread.curated) {
+        if (!groups[q.bookId]) {
+          const book = bookLookup[q.bookId];
+          groups[q.bookId] = {
+            id: q.bookId,
+            title: book ? book.title : q.bookId,
+            author: book ? (book.author || []).join(', ') : '',
+            year: book ? book.year : null,
+            passages: [],
+          };
+        }
+        groups[q.bookId].passages.push({ excerpt: q.excerpt, matchedTerm: 'technology' });
+      }
+      passages = Object.values(groups).sort((a, b) => a.author.localeCompare(b.author));
+    } else {
+      // Pull from definitions data
+      const bookPassages = {};
+      for (const book of index.books) {
+        const defs = book.definitions || {};
+        const matching = [];
+        for (const term of selectedThread.terms) {
+          if (defs[term]) {
+            for (const d of defs[term]) {
+              matching.push({ ...d, matchedTerm: term });
+            }
           }
         }
+        if (matching.length > 0) {
+          const seen = new Set();
+          const unique = matching.filter(m => {
+            const k = m.excerpt.slice(0, 80);
+            if (seen.has(k)) return false;
+            seen.add(k);
+            return true;
+          });
+          bookPassages[book.id] = {
+            id: book.id,
+            title: book.title,
+            author: (book.author || []).join(', '),
+            year: book.year,
+            passages: unique,
+          };
+        }
       }
-
-      if (matching.length > 0) {
-        // Deduplicate by excerpt
-        const seen = new Set();
-        const unique = matching.filter(m => {
-          const k = m.excerpt.slice(0, 80);
-          if (seen.has(k)) return false;
-          seen.add(k);
-          return true;
-        });
-
-        bookPassages[book.id] = {
-          id: book.id,
-          title: book.title,
-          author: (book.author || []).join(', '),
-          year: book.year,
-          passages: unique,
-        };
-      }
+      passages = Object.values(bookPassages).sort((a, b) => a.author.localeCompare(b.author));
     }
-
-    passages = Object.values(bookPassages).sort((a, b) =>
-      a.author.localeCompare(b.author)
-    );
   }
 
   // Count passages per thread for the sidebar
   const threadCounts = {};
   for (const thread of THREADS) {
-    let count = 0;
-    for (const book of index.books) {
-      const defs = book.definitions || {};
-      for (const term of thread.terms) {
-        count += (defs[term] || []).length;
+    if (thread.curated) {
+      threadCounts[thread.id] = thread.curated.length;
+    } else {
+      let count = 0;
+      for (const book of index.books) {
+        const defs = book.definitions || {};
+        for (const term of thread.terms) {
+          count += (defs[term] || []).length;
+        }
       }
+      threadCounts[thread.id] = count;
     }
-    threadCounts[thread.id] = count;
   }
 
   return (
@@ -195,12 +244,14 @@ export default function ThematicThreads() {
                       paddingLeft: '1rem',
                       borderLeft: '3px solid var(--coral, #c17a5a)',
                     }}>
-                      <span style={{
-                        fontSize: '0.85rem', color: 'var(--text-muted)',
-                        display: 'block', marginBottom: '0.25rem',
-                      }}>
-                        {p.locator_type} {p.locator} \u2022 matched: {p.matchedTerm}
-                      </span>
+                      {p.locator_type && (
+                        <span style={{
+                          fontSize: '0.85rem', color: 'var(--text-muted)',
+                          display: 'block', marginBottom: '0.25rem',
+                        }}>
+                          {p.locator_type} {p.locator} \u2022 matched: {p.matchedTerm}
+                        </span>
+                      )}
                       <p style={{
                         fontSize: '1rem', fontStyle: 'italic',
                         color: 'var(--text-secondary)', lineHeight: 1.7,
