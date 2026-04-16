@@ -2,6 +2,28 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { loadIndex } from '../utils/data';
 
+const CURATED_TEXT = [
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: '\u2018Reading\u2019 a text means converting it to sound, aloud or in the imagination, syllable-by-syllable in slow reading or sketchily in the rapid reading common to high-technology cultures.' },
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: 'a written text is basically unresponsive.' },
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: 'SOME DYNAMICS OF TEXTUALITY The condition of words in a text is quite different from their condition in spoken discourse.' },
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: 'The printed text is supposed to represent the words of an author in definitive or \u2018final\u2019 form.' },
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: 'every text is pretext' },
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: 'text is fundamentally pretext\u2014though this does not mean that text can be reduced to orality.' },
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: '\u2018The objectivity of the text is an illusion\u2019' },
+  { bookId: 'ong-orality-and-literacy-the-technologizing', excerpt: 'Concrete poetry plays with the dialectic of the word locked into space as opposed to the sounded, oral word which can never be locked into space' },
+  { bookId: 'jr-distributed-blackness-african-american-c', excerpt: 'the \u2018text is only experienced in an activity of production\u2019' },
+  { bookId: 'haraway-simians-cyborgs-and-women-the-reinventio', excerpt: 'The most straightforward readings of any text are also situated arguments about fields of meanings and fields of power.' },
+  { bookId: 'haraway-simians-cyborgs-and-women-the-reinventio', excerpt: 'Just as the world is originally fallen apart, the text is always already enmeshed in contending practices and hopes.' },
+  { bookId: 'latour-reassembling-the-social-an-introduction', excerpt: 'A good text is never an unmediated portrait of what it describes.' },
+  { bookId: 'latour-reassembling-the-social-an-introduction', excerpt: 'As if the absence of an absolute Text meant that all the texts were relative.' },
+  { bookId: 'drucker-the-digital-humanities-coursebook-an-int', excerpt: 'Henceforth, the primary Text is effaced...all that remains is representation, unfolding in the verbal signs that manifest it, and hence becoming discourse.' },
+  { bookId: 'drucker-the-digital-humanities-coursebook-an-int', excerpt: 'The representation of the text is not identical to its aesthetic structure.' },
+  { bookId: 'losh-bodies-of-information', excerpt: 'the narrative features of a text are divorced from its content, including its circumstances of production and cultural location.' },
+  { bookId: 'losh-bodies-of-information', excerpt: 'in theater the text is subject to the same laws and dislocations as the visual, audible, gestic and architectonic theatrical signs.' },
+  { bookId: 'hayles-how-we-became-posthuman-virtual-bodies-i', excerpt: 'the body of the text is produced precisely by these fissures, which are not so much ruptures as productive dialectics' },
+  { bookId: 'hayles-how-we-became-posthuman-virtual-bodies-i', excerpt: 'in electronic textuality, the possibilities for mutation within the text are enhanced and heightened by long coding chains.' },
+];
+
 const CURATED_TECHNOLOGY = [
   { bookId: 'vee-coding-literacy-how-computer-programming', excerpt: 'To push beyond thinking of technology in only instrumental ways, Heidegger claims we must see that \'the essence of technology is by no means anything technological.\'' },
   { bookId: 'vee-coding-literacy-how-computer-programming', excerpt: 'the essence of technology is in its \'way of revealing.\'' },
@@ -34,6 +56,7 @@ const THREADS = [
     id: 'text',
     title: 'What counts as a "text"?',
     terms: ['text'],
+    curated: CURATED_TEXT,
   },
   {
     id: 'technology',
